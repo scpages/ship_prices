@@ -68,7 +68,7 @@ const priceRows = sorted.map(v => {
   const buys   = buyMap[v.id];
 
   const pledgeHtml = pledge
-    ? `<span class="pledge-price">${fmtUSD(pledge.price)}</span>${pledge.on_sale ? ` <span class="sale-badge">SALE</span>` : ""}${pledge.price_warbond ? ` <span class="wb-badge">WB ${fmtUSD(pledge.price_warbond)}</span>` : ""}`
+    ? `<span class="pledge-price">${fmtUSD(pledge.price)}</span>`
     : `<span class="no-data">—</span>`;
 
   return `
