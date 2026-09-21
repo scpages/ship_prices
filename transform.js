@@ -5,53 +5,109 @@ function load(f) {
   catch { console.warn(`${f} not found`); return []; }
 }
 
-const vehicles    = load("vehicles.json");
-const pledgeRaw   = load("pledge_prices.json");
-const buyRaw      = load("buy_prices.json");
-const rentRaw     = load("rent_prices.json");
+const rsiShips = load("rsi_prices.json");
+const vehicles = load("vehicles.json");
+const buyRaw   = load("buy_prices.json");
+const rentRaw  = load("rent_prices.json");
 
-// Latest pledge price per vehicle
-const pledgeMap = {};
-for (const p of pledgeRaw) {
-  if (!p.date_modified) continue;
-  const prev = pledgeMap[p.id_vehicle];
-  if (!prev || p.date_modified > prev.date_modified) pledgeMap[p.id_vehicle] = p;
+const RSI_MFR_SHORT = {
+  "Aegis Dynamics":          "Aegis",
+  "Anvil Aerospace":         "Anvil",
+  "Aopoa":                   "Aopoa",
+  "Argo Astronautics":       "Argo",
+  "Banu":                    "Banu",
+  "Consolidated Outland":    "C.O.",
+  "Crusader Industries":     "Crusader",
+  "Drake Interplanetary":    "Drake",
+  "Esperia":                 "Esperia",
+  "Gatac Manufacture":       "Gatac",
+  "Greycat Industrial":      "Greycat",
+  "Grey's Market":           "Grey's Market",
+  "Kruger Intergalactic":    "Kruger",
+  "Mirai":                   "Mirai",
+  "MISC":                    "MISC",
+  "Origin Jumpworks":        "Origin",
+  "Roberts Space Industries":"RSI",
+  "Tumbril Land Systems":    "Tumbril",
+  "Tumbril":                 "Tumbril",
+  "Vanduul":                 "Vanduul",
+  "Xi'An":                   "Xi'An",
+};
+
+// Explicit overrides for names that can't be matched automatically
+const RSI_NAME_OVERRIDES = {
+  "G12a":                     "Origin G12-A",
+  "G12r":                     "Origin G12-R",
+  "San’tok.yāi":    "Aopoa San tok.Yāi",
+  "Carrack w/C8X":            "Anvil Carrack",
+  "Carrack Expedition w/C8X": "Anvil Carrack Expedition",
+  "Gladius Pirate Edition":   "Aegis Gladius Pirate",
+  "Sabre Raven EX":           "Aegis Sabre Raven",
+  "ATLS IKTI Akuma":          null,
+};
+
+// UEX lookup by normalized name_full
+const uexByNorm = {};
+for (const v of vehicles) uexByNorm[v.name_full.trim().toLowerCase()] = v;
+
+function matchUEX(ship) {
+  const raw = ship.name.trim();
+
+  if (raw in RSI_NAME_OVERRIDES) {
+    const override = RSI_NAME_OVERRIDES[raw];
+    if (!override) return null;
+    return uexByNorm[override.toLowerCase()] || null;
+  }
+
+  const mfrShort = RSI_MFR_SHORT[ship.manufacturer?.name] || ship.manufacturer?.name || "";
+  // Some RSI ship names already include the manufacturer prefix — don't double it
+  const candidate = raw.toLowerCase().startsWith(mfrShort.toLowerCase() + " ")
+    ? raw.trim().toLowerCase()
+    : (mfrShort + " " + raw).trim().toLowerCase();
+
+  if (uexByNorm[candidate]) return uexByNorm[candidate];
+
+  // Backward prefix: UEX name starts with candidate (e.g., "Crusader A2 Hercules Starlifter")
+  let best = null, bestLen = Infinity;
+  for (const [k, v] of Object.entries(uexByNorm)) {
+    if (k.startsWith(candidate + " ") && k.length < bestLen) {
+      best = v;
+      bestLen = k.length;
+    }
+  }
+  return best;
 }
 
-// Buy locations per vehicle
+// Build buy/rent maps by UEX vehicle id
 const buyMap = {};
 for (const b of buyRaw) {
   if (!buyMap[b.id_vehicle]) buyMap[b.id_vehicle] = [];
   buyMap[b.id_vehicle].push(b);
 }
-
-// Rent locations per vehicle
 const rentMap = {};
 for (const r of rentRaw) {
   if (!rentMap[r.id_vehicle]) rentMap[r.id_vehicle] = [];
   rentMap[r.id_vehicle].push(r);
 }
 
-function fmtUSD(n) {
-  return n ? `$${Number(n).toLocaleString("en-US")}` : "—";
+function fmtUSD(cents) {
+  if (!cents) return "—";
+  return "$" + (cents / 100).toLocaleString("en-US");
 }
-
 function fmtAUEC(n) {
   if (!n) return "—";
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(2)}M aUEC`;
-  if (n >= 1_000) return `${(n / 1_000).toFixed(0)}K aUEC`;
+  if (n >= 1_000)     return `${(n / 1_000).toFixed(0)}K aUEC`;
   return `${n} aUEC`;
 }
-
-function locationLabel(entry) {
+function locationLabel(e) {
   const parts = [];
-  if (entry.city_name) parts.push(entry.city_name);
-  else if (entry.moon_name) parts.push(entry.moon_name);
-  else if (entry.planet_name) parts.push(entry.planet_name);
-  if (entry.terminal_name) parts.push(entry.terminal_name);
+  if (e.city_name)     parts.push(e.city_name);
+  else if (e.moon_name)  parts.push(e.moon_name);
+  else if (e.planet_name) parts.push(e.planet_name);
+  if (e.terminal_name) parts.push(e.terminal_name);
   return parts.join(" · ") || "Unknown";
 }
-
 function priceCell(entries, priceKey) {
   if (!entries || !entries.length) return `<td class="no-data">—</td><td class="no-data">—</td>`;
   const sorted = [...entries].sort((a, b) => a[priceKey] - b[priceKey]);
@@ -60,39 +116,38 @@ function priceCell(entries, priceKey) {
   return `<td>${prices}</td><td>${locs}</td>`;
 }
 
-const sorted = vehicles.sort((a, b) => {
-  const pa = pledgeMap[a.id]?.price ?? Infinity;
-  const pb = pledgeMap[b.id]?.price ?? Infinity;
-  return pa !== pb ? pa - pb : a.name.localeCompare(b.name);
+// Enrich RSI ships with UEX aUEC data
+const enriched = rsiShips.map(ship => {
+  const uex  = matchUEX(ship);
+  const mfr  = RSI_MFR_SHORT[ship.manufacturer?.name] || ship.manufacturer?.name || "";
+  return { ...ship, uex, mfr, buys: uex ? buyMap[uex.id] : null, rents: uex ? rentMap[uex.id] : null };
 });
 
-// Table 1: all ships — pledge + buy
-const priceRows = sorted.map(v => {
-  const pledge = pledgeMap[v.id];
-  const buys   = buyMap[v.id];
+// Sort by pledge price, then manufacturer, then name
+enriched.sort((a, b) => {
+  const pa = a.msrp || Infinity, pb = b.msrp || Infinity;
+  if (pa !== pb) return pa - pb;
+  return (a.mfr || "").localeCompare(b.mfr || "") || a.name.trim().localeCompare(b.name.trim());
+});
 
-  const pledgeHtml = pledge
-    ? `<span class="pledge-price">${fmtUSD(pledge.price)}</span>`
-    : `<span class="no-data">—</span>`;
+const matchedCount  = enriched.filter(s => s.uex).length;
+const buyCount      = enriched.filter(s => s.buys).length;
+const rentCount     = enriched.filter(s => s.rents).length;
 
-  return `
+const priceRows = enriched.map(ship => `
     <tr>
-      <td class="ship-name"><span class="name">${v.name}</span><span class="mfr">${v.company_name || ""}</span></td>
-      <td>${pledgeHtml}</td>
-      ${priceCell(buys, "price_buy")}
-    </tr>`;
-}).join("");
+      <td class="mfr-col">${ship.mfr}</td>
+      <td class="ship-col">${ship.name.trim()}</td>
+      <td>${ship.msrp ? `<span class="pledge-price">${fmtUSD(ship.msrp)}</span>` : `<span class="no-data">—</span>`}</td>
+      ${priceCell(ship.buys, "price_buy")}
+    </tr>`).join("");
 
-// Table 2: rentable ships only
-const rentableVehicles = sorted.filter(v => rentMap[v.id]);
-const rentRows = rentableVehicles.map(v => {
-  const rents = rentMap[v.id];
-  return `
+const rentRows = enriched.filter(s => s.rents).map(ship => `
     <tr>
-      <td class="ship-name"><span class="name">${v.name}</span><span class="mfr">${v.company_name || ""}</span></td>
-      ${priceCell(rents, "price_rent")}
-    </tr>`;
-}).join("");
+      <td class="mfr-col">${ship.mfr}</td>
+      <td class="ship-col">${ship.name.trim()}</td>
+      ${priceCell(ship.rents, "price_rent")}
+    </tr>`).join("");
 
 const CSS = `
     *{margin:0;padding:0;box-sizing:border-box}
@@ -111,12 +166,9 @@ const CSS = `
     td{padding:10px 12px;border-bottom:1px solid rgba(255,255,255,.05);vertical-align:top;font-size:.85rem}
     tr:hover td{background:rgba(42,159,214,.08)}
     tr:last-child td{border-bottom:none}
-    .ship-name{min-width:160px}
-    .name{display:block;font-weight:600;color:#2a9fd6}
-    .mfr{display:block;font-size:.75rem;color:#888;margin-top:2px}
+    .mfr-col{font-size:.78rem;color:#6a8090;white-space:nowrap;min-width:60px}
+    .ship-col{font-weight:600;color:#2a9fd6;min-width:160px}
     .pledge-price{font-weight:700;color:#4fc3f7}
-    .sale-badge{display:inline-block;background:rgba(220,50,50,.2);color:#f44;border:1px solid rgba(220,50,50,.4);border-radius:3px;font-size:.7rem;padding:1px 5px;margin-left:4px;vertical-align:middle;font-weight:700}
-    .wb-badge{display:inline-block;background:rgba(255,165,0,.15);color:#ffa500;border:1px solid rgba(255,165,0,.3);border-radius:3px;font-size:.7rem;padding:1px 5px;margin-left:4px;vertical-align:middle}
     .price-val{display:block;font-weight:600;color:#e8e8e8;white-space:nowrap}
     .loc{display:block;color:#888;font-size:.78rem;white-space:nowrap}
     .no-data{color:#555;text-align:center}
@@ -146,19 +198,20 @@ const html = `<!DOCTYPE html>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="stat-val">${vehicles.length}</div><div class="stat-lbl">Ships</div></div>
-    <div class="stat"><div class="stat-val">${Object.keys(pledgeMap).length}</div><div class="stat-lbl">Pledge Prices</div></div>
-    <div class="stat"><div class="stat-val">${Object.keys(buyMap).length}</div><div class="stat-lbl">In-Game Buy</div></div>
-    <div class="stat"><div class="stat-val">${rentableVehicles.length}</div><div class="stat-lbl">Rentable</div></div>
+    <div class="stat"><div class="stat-val">${enriched.length}</div><div class="stat-lbl">Ships</div></div>
+    <div class="stat"><div class="stat-val">${matchedCount}</div><div class="stat-lbl">Matched to UEX</div></div>
+    <div class="stat"><div class="stat-val">${buyCount}</div><div class="stat-lbl">In-Game Buy</div></div>
+    <div class="stat"><div class="stat-val">${rentCount}</div><div class="stat-lbl">Rentable</div></div>
   </div>
 
   <div class="section-header">
     <h2>Ship Prices</h2>
-    <p>Pledge (USD) and in-game purchase prices (aUEC)</p>
+    <p>Pledge prices from RSI · In-game aUEC prices from UEX Corp</p>
   </div>
   <div class="table-wrap">
     <table>
       <thead><tr>
+        <th>Mfr</th>
         <th>Ship</th>
         <th>Pledge (USD)</th>
         <th>Buy (aUEC)</th>
@@ -170,11 +223,12 @@ const html = `<!DOCTYPE html>
 
   <div class="section-header">
     <h2>Rentable Ships</h2>
-    <p>${rentableVehicles.length} ships available for in-game rental</p>
+    <p>${rentCount} ships available for in-game rental</p>
   </div>
   <div class="table-wrap">
     <table>
       <thead><tr>
+        <th>Mfr</th>
         <th>Ship</th>
         <th>Rent (aUEC)</th>
         <th>Rent Location</th>
@@ -186,11 +240,12 @@ const html = `<!DOCTYPE html>
   <div class="footer">
     Generated: ${new Date().toUTCString()} ·
     <a href="https://github.com/scpages/ship_prices" target="_blank">GitHub</a> ·
-    Data from <a href="https://uexcorp.space" target="_blank">UEX Corp</a>
+    Pledge data from <a href="https://robertsspaceindustries.com" target="_blank">RSI</a> ·
+    aUEC data from <a href="https://uexcorp.space" target="_blank">UEX Corp</a>
   </div>
 </div>
 </body>
 </html>`;
 
 fs.writeFileSync("index.html", html);
-console.log(`index.html generated (${vehicles.length} ships, ${rentableVehicles.length} rentable)`);
+console.log(`index.html generated (${enriched.length} ships, ${matchedCount} with UEX match, ${buyCount} buyable, ${rentCount} rentable)`);

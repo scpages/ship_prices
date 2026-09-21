@@ -33,6 +33,25 @@ async function main() {
   fs.writeFileSync("pledge_prices.json", JSON.stringify(pledgePrices, null, 2));
   fs.writeFileSync("buy_prices.json",    JSON.stringify(buyPrices, null, 2));
   fs.writeFileSync("rent_prices.json",   JSON.stringify(rentPrices, null, 2));
+
+  console.log("Fetching RSI pledge prices...");
+  const RSI_URL = "https://robertsspaceindustries.com/pledge-store/api/upgrade/v2/graphql";
+  const RSI_QUERY = [{"operationName":"initShipUpgrade","variables":{},"query":"query initShipUpgrade {\n  ships { id name link manufacturer { id name } focus type flyableStatus msrp\n    skus { id title available price }\n  }\n}"}];
+  const rsiResp = await fetch(RSI_URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+      "Referer": "https://robertsspaceindustries.com/en/pledge",
+      "Origin": "https://robertsspaceindustries.com",
+    },
+    body: JSON.stringify(RSI_QUERY),
+  });
+  if (!rsiResp.ok) throw new Error(`RSI HTTP ${rsiResp.status}`);
+  const rsiJson = await rsiResp.json();
+  const rsiShips = rsiJson[0].data.ships;
+  console.log(`  ${rsiShips.length} RSI ships`);
+  fs.writeFileSync("rsi_prices.json", JSON.stringify(rsiShips, null, 2));
   console.log("Saved all data files.");
 }
 
