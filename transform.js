@@ -60,7 +60,11 @@ function priceCell(entries, priceKey) {
   return `<td>${prices}</td><td>${locs}</td>`;
 }
 
-const sorted = vehicles.sort((a, b) => a.name.localeCompare(b.name));
+const sorted = vehicles.sort((a, b) => {
+  const pa = pledgeMap[a.id]?.price ?? Infinity;
+  const pb = pledgeMap[b.id]?.price ?? Infinity;
+  return pa !== pb ? pa - pb : a.name.localeCompare(b.name);
+});
 
 // Table 1: all ships — pledge + buy
 const priceRows = sorted.map(v => {
