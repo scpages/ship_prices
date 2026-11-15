@@ -199,7 +199,6 @@ const html = `<!DOCTYPE html>
 <div class="container">
   <div class="stats">
     <div class="stat"><div class="stat-val">${enriched.length}</div><div class="stat-lbl">Ships</div></div>
-    <div class="stat"><div class="stat-val">${matchedCount}</div><div class="stat-lbl">Matched to UEX</div></div>
     <div class="stat"><div class="stat-val">${buyCount}</div><div class="stat-lbl">In-Game Buy</div></div>
     <div class="stat"><div class="stat-val">${rentCount}</div><div class="stat-lbl">Rentable</div></div>
   </div>
