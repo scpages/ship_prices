@@ -40,14 +40,14 @@
     "price_warbond": 850,
     "price_package": 0,
     "price_concierge": 0,
-    "on_sale": 1,
+    "on_sale": 0,
     "on_sale_warbond": 0,
     "on_sale_package": 0,
     "on_sale_concierge": 0,
     "currency": "USD",
-    "game_version": "3.24.3",
+    "game_version": "4.10.3",
     "date_added": 1703566807,
-    "date_modified": 1732639526,
+    "date_modified": 1794525477,
     "vehicle_name": "Polaris"
   },
   {
@@ -82,7 +82,7 @@
     "game_version": "3.23",
     "date_added": 1703566808,
     "date_modified": 1716260434,
-    "vehicle_name": "Constellation Aquila"
+    "vehicle_name": "Constellation Mk IV Aquila"
   },
   {
     "id": 6,
@@ -198,9 +198,9 @@
     "on_sale_package": 0,
     "on_sale_concierge": 0,
     "currency": "USD",
-    "game_version": "4.5",
+    "game_version": "4.10.1",
     "date_added": 1703566810,
-    "date_modified": 1766260902,
+    "date_modified": 1789840064,
     "vehicle_name": "Avenger Stalker"
   },
   {
@@ -346,14 +346,14 @@
     "price_warbond": 560,
     "price_package": 0,
     "price_concierge": 0,
-    "on_sale": 1,
+    "on_sale": 0,
     "on_sale_warbond": 0,
     "on_sale_package": 0,
     "on_sale_concierge": 0,
     "currency": "USD",
-    "game_version": "3.23",
+    "game_version": "4.10.3",
     "date_added": 1703566813,
-    "date_modified": 1716631944,
+    "date_modified": 1794525775,
     "vehicle_name": "Carrack"
   },
   {
@@ -558,7 +558,7 @@
     "game_version": "3.23",
     "date_added": 1703566817,
     "date_modified": 1716260495,
-    "vehicle_name": "Spartan"
+    "vehicle_name": "HM6 Spartan"
   },
   {
     "id": 35,
@@ -584,14 +584,14 @@
     "price_warbond": 700,
     "price_package": 0,
     "price_concierge": 0,
-    "on_sale": 1,
+    "on_sale": 0,
     "on_sale_warbond": 0,
     "on_sale_package": 0,
     "on_sale_concierge": 0,
     "currency": "USD",
-    "game_version": "4.6.0",
+    "game_version": "4.10.3",
     "date_added": 1703566817,
-    "date_modified": 1770571464,
+    "date_modified": 1794525443,
     "vehicle_name": "Perseus"
   },
   {
@@ -745,7 +745,7 @@
     "game_version": "3.22.0a",
     "date_added": 1703566821,
     "date_modified": 1716260492,
-    "vehicle_name": "Ares Inferno Starfighter"
+    "vehicle_name": "Ares Star Fighter Inferno"
   },
   {
     "id": 49,
@@ -762,7 +762,7 @@
     "game_version": "3.22.0a",
     "date_added": 1703566821,
     "date_modified": 1716260494,
-    "vehicle_name": "Ares Ion Starfighter"
+    "vehicle_name": "Ares Star Fighter Ion"
   },
   {
     "id": 50,
@@ -864,7 +864,7 @@
     "game_version": "3.23",
     "date_added": 1703566825,
     "date_modified": 1716260555,
-    "vehicle_name": "Ballista"
+    "vehicle_name": "HM6 Ballista"
   },
   {
     "id": 63,
@@ -983,7 +983,7 @@
     "game_version": "4.0.2",
     "date_added": 1703566828,
     "date_modified": 1741107794,
-    "vehicle_name": "San tok.Yāi"
+    "vehicle_name": "San'tok.yāi"
   },
   {
     "id": 71,
@@ -1111,14 +1111,14 @@
     "price_warbond": 0,
     "price_package": 0,
     "price_concierge": 0,
-    "on_sale": 1,
+    "on_sale": 0,
     "on_sale_warbond": 0,
     "on_sale_package": 0,
     "on_sale_concierge": 0,
     "currency": "USD",
-    "game_version": "3.22.1",
+    "game_version": "4.10.3",
     "date_added": 1703566831,
-    "date_modified": 1716260504,
+    "date_modified": 1794525837,
     "vehicle_name": "M2 Hercules Starlifter"
   },
   {
@@ -1128,14 +1128,14 @@
     "price_warbond": 0,
     "price_package": 0,
     "price_concierge": 0,
-    "on_sale": 1,
+    "on_sale": 0,
     "on_sale_warbond": 0,
     "on_sale_package": 0,
     "on_sale_concierge": 0,
     "currency": "USD",
-    "game_version": "3.23",
+    "game_version": "4.10.3",
     "date_added": 1703566831,
-    "date_modified": 1716631574,
+    "date_modified": 1794525571,
     "vehicle_name": "A2 Hercules Starlifter"
   },
   {
@@ -1587,14 +1587,14 @@
     "price_warbond": 0,
     "price_package": 0,
     "price_concierge": 0,
-    "on_sale": 1,
+    "on_sale": 0,
     "on_sale_warbond": 0,
     "on_sale_package": 0,
     "on_sale_concierge": 0,
     "currency": "USD",
-    "game_version": "3.23.1",
+    "game_version": "4.10.3",
     "date_added": 1703566841,
-    "date_modified": 1718210134,
+    "date_modified": 1794525863,
     "vehicle_name": "Prowler"
   },
   {
@@ -2139,7 +2139,7 @@
     "game_version": "3.22.0a",
     "date_added": 1703566851,
     "date_modified": 1716260500,
-    "vehicle_name": "Constellation Taurus"
+    "vehicle_name": "Constellation Mk IV Taurus"
   },
   {
     "id": 147,
@@ -2156,7 +2156,7 @@
     "game_version": "3.23",
     "date_added": 1703566851,
     "date_modified": 1716260581,
-    "vehicle_name": "Constellation Phoenix"
+    "vehicle_name": "Constellation Mk IV Phoenix"
   },
   {
     "id": 149,
@@ -2250,14 +2250,14 @@
     "price_warbond": 600,
     "price_package": 0,
     "price_concierge": 0,
-    "on_sale": 1,
+    "on_sale": 0,
     "on_sale_warbond": 0,
     "on_sale_package": 0,
     "on_sale_concierge": 0,
     "currency": "USD",
-    "game_version": "3.23.1",
+    "game_version": "4.10.3",
     "date_added": 1703566853,
-    "date_modified": 1718211450,
+    "date_modified": 1794525629,
     "vehicle_name": "Merchantman"
   },
   {
@@ -2352,14 +2352,14 @@
     "price_warbond": 0,
     "price_package": 0,
     "price_concierge": 0,
-    "on_sale": 1,
+    "on_sale": 0,
     "on_sale_warbond": 0,
     "on_sale_package": 0,
     "on_sale_concierge": 0,
     "currency": "USD",
-    "game_version": "4.1.1",
+    "game_version": "4.10.3",
     "date_added": 1703566855,
-    "date_modified": 1747328562,
+    "date_modified": 1794524899,
     "vehicle_name": "Idris-P"
   },
   {
@@ -2479,7 +2479,7 @@
     "game_version": "3.23",
     "date_added": 1703566857,
     "date_modified": 1716635061,
-    "vehicle_name": "Constellation Andromeda"
+    "vehicle_name": "Constellation Mk IV Andromeda"
   },
   {
     "id": 168,
@@ -2768,7 +2768,7 @@
     "game_version": "3.23",
     "date_added": 1703566863,
     "date_modified": 1716260711,
-    "vehicle_name": "Centurion"
+    "vehicle_name": "HM6 Centurion"
   },
   {
     "id": 187,
@@ -3278,7 +3278,7 @@
     "game_version": "4.6.0",
     "date_added": 1707015766,
     "date_modified": 1770539505,
-    "vehicle_name": "Constellation Phoenix Emerald"
+    "vehicle_name": "Constellation Mk IV Phoenix Emerald"
   },
   {
     "id": 220,
@@ -3686,7 +3686,7 @@
     "game_version": "3.23",
     "date_added": 1716041885,
     "date_modified": 1716308754,
-    "vehicle_name": "Constellation Phoenix"
+    "vehicle_name": "Constellation Mk IV Phoenix"
   },
   {
     "id": 246,
@@ -3788,7 +3788,7 @@
     "game_version": "4.7.2",
     "date_added": 1716041992,
     "date_modified": 1778670323,
-    "vehicle_name": "Ballista"
+    "vehicle_name": "HM6 Ballista"
   },
   {
     "id": 252,
@@ -3839,7 +3839,7 @@
     "game_version": "4.7.2",
     "date_added": 1716042037,
     "date_modified": 1778670215,
-    "vehicle_name": "Centurion"
+    "vehicle_name": "HM6 Centurion"
   },
   {
     "id": 255,
@@ -3873,7 +3873,7 @@
     "game_version": "3.23.1a",
     "date_added": 1716042135,
     "date_modified": 1720671165,
-    "vehicle_name": "Spartan"
+    "vehicle_name": "HM6 Spartan"
   },
   {
     "id": 257,
@@ -4689,7 +4689,7 @@
     "game_version": "4.7.2",
     "date_added": 1716043956,
     "date_modified": 1778670464,
-    "vehicle_name": "Constellation Andromeda"
+    "vehicle_name": "Constellation Mk IV Andromeda"
   },
   {
     "id": 305,
@@ -4910,7 +4910,7 @@
     "game_version": "4.7.2",
     "date_added": 1716047829,
     "date_modified": 1778670590,
-    "vehicle_name": "Constellation Aquila"
+    "vehicle_name": "Constellation Mk IV Aquila"
   },
   {
     "id": 318,
@@ -5301,7 +5301,7 @@
     "game_version": "3.23",
     "date_added": 1716117775,
     "date_modified": 1716117775,
-    "vehicle_name": "Constellation Andromeda"
+    "vehicle_name": "Constellation Mk IV Andromeda"
   },
   {
     "id": 341,
@@ -5369,7 +5369,7 @@
     "game_version": "3.23",
     "date_added": 1716117920,
     "date_modified": 0,
-    "vehicle_name": "Ballista"
+    "vehicle_name": "HM6 Ballista"
   },
   {
     "id": 345,
@@ -5403,7 +5403,7 @@
     "game_version": "3.23",
     "date_added": 1716117944,
     "date_modified": 0,
-    "vehicle_name": "Centurion"
+    "vehicle_name": "HM6 Centurion"
   },
   {
     "id": 347,
@@ -5471,7 +5471,7 @@
     "game_version": "3.23",
     "date_added": 1716118027,
     "date_modified": 0,
-    "vehicle_name": "Spartan"
+    "vehicle_name": "HM6 Spartan"
   },
   {
     "id": 351,
@@ -6049,7 +6049,7 @@
     "game_version": "3.23",
     "date_added": 1716132641,
     "date_modified": 0,
-    "vehicle_name": "Constellation Aquila"
+    "vehicle_name": "Constellation Mk IV Aquila"
   },
   {
     "id": 385,
@@ -6066,7 +6066,7 @@
     "game_version": "3.23",
     "date_added": 1716132660,
     "date_modified": 0,
-    "vehicle_name": "Constellation Taurus"
+    "vehicle_name": "Constellation Mk IV Taurus"
   },
   {
     "id": 386,
@@ -6627,7 +6627,7 @@
     "game_version": "3.23.1a",
     "date_added": 1716309424,
     "date_modified": 1720671174,
-    "vehicle_name": "Ares Inferno Starfighter"
+    "vehicle_name": "Ares Star Fighter Inferno"
   },
   {
     "id": 419,
@@ -6644,7 +6644,7 @@
     "game_version": "3.23.1a",
     "date_added": 1716309447,
     "date_modified": 1720671189,
-    "vehicle_name": "Ares Ion Starfighter"
+    "vehicle_name": "Ares Star Fighter Ion"
   },
   {
     "id": 420,
@@ -6831,7 +6831,7 @@
     "game_version": "4.7.2",
     "date_added": 1716311574,
     "date_modified": 1778670440,
-    "vehicle_name": "Constellation Taurus"
+    "vehicle_name": "Constellation Mk IV Taurus"
   },
   {
     "id": 431,
@@ -7375,7 +7375,7 @@
     "game_version": "3.23.1a",
     "date_added": 1718270637,
     "date_modified": 1719301726,
-    "vehicle_name": "San tok.Yāi"
+    "vehicle_name": "San'tok.yāi"
   },
   {
     "id": 463,
@@ -7503,14 +7503,14 @@
     "price_warbond": 525,
     "price_package": 0,
     "price_concierge": 0,
-    "on_sale": 1,
+    "on_sale": 0,
     "on_sale_warbond": 0,
     "on_sale_package": 0,
     "on_sale_concierge": 0,
     "currency": "USD",
-    "game_version": "4.8.0",
+    "game_version": "4.10.3",
     "date_added": 1721427443,
-    "date_modified": 1778775991,
+    "date_modified": 1794525802,
     "vehicle_name": "Ironclad"
   },
   {
@@ -7520,14 +7520,14 @@
     "price_warbond": 575,
     "price_package": 0,
     "price_concierge": 0,
-    "on_sale": 1,
+    "on_sale": 0,
     "on_sale_warbond": 0,
     "on_sale_package": 0,
     "on_sale_concierge": 0,
     "currency": "USD",
-    "game_version": "4.8.0",
+    "game_version": "4.10.3",
     "date_added": 1721428348,
-    "date_modified": 1778776081,
+    "date_modified": 1794525754,
     "vehicle_name": "Ironclad Assault"
   },
   {
@@ -8225,7 +8225,7 @@
     "game_version": "4.1.1",
     "date_added": 1738177409,
     "date_modified": 1748029693,
-    "vehicle_name": "Ballista"
+    "vehicle_name": "HM6 Ballista"
   },
   {
     "id": 513,
@@ -8310,7 +8310,7 @@
     "game_version": "4.1.1",
     "date_added": 1738177410,
     "date_modified": 1748030005,
-    "vehicle_name": "Centurion"
+    "vehicle_name": "HM6 Centurion"
   },
   {
     "id": 518,
@@ -8327,7 +8327,7 @@
     "game_version": "4.1.1",
     "date_added": 1738177410,
     "date_modified": 1748557729,
-    "vehicle_name": "Constellation Andromeda"
+    "vehicle_name": "Constellation Mk IV Andromeda"
   },
   {
     "id": 519,
@@ -8344,7 +8344,7 @@
     "game_version": "4.1.1",
     "date_added": 1738177410,
     "date_modified": 1747677797,
-    "vehicle_name": "Constellation Aquila"
+    "vehicle_name": "Constellation Mk IV Aquila"
   },
   {
     "id": 520,
@@ -8361,7 +8361,7 @@
     "game_version": "4.1.1",
     "date_added": 1738177410,
     "date_modified": 1747677797,
-    "vehicle_name": "Constellation Taurus"
+    "vehicle_name": "Constellation Mk IV Taurus"
   },
   {
     "id": 521,
@@ -9211,7 +9211,7 @@
     "game_version": "4.0.1",
     "date_added": 1740770034,
     "date_modified": 0,
-    "vehicle_name": "Ares Inferno Starfighter"
+    "vehicle_name": "Ares Star Fighter Inferno"
   },
   {
     "id": 571,
@@ -9398,7 +9398,7 @@
     "game_version": "4.1.1",
     "date_added": 1743440610,
     "date_modified": 1748466356,
-    "vehicle_name": "Ares Inferno Starfighter"
+    "vehicle_name": "Ares Star Fighter Inferno"
   },
   {
     "id": 582,
@@ -9415,7 +9415,7 @@
     "game_version": "4.1.1",
     "date_added": 1743440610,
     "date_modified": 1748467194,
-    "vehicle_name": "Ares Ion Starfighter"
+    "vehicle_name": "Ares Star Fighter Ion"
   },
   {
     "id": 583,
@@ -9602,7 +9602,7 @@
     "game_version": "4.1.1",
     "date_added": 1743440611,
     "date_modified": 1748853688,
-    "vehicle_name": "Spartan"
+    "vehicle_name": "HM6 Spartan"
   },
   {
     "id": 594,
@@ -9908,7 +9908,7 @@
     "game_version": "4.1",
     "date_added": 1746428377,
     "date_modified": 0,
-    "vehicle_name": "Ares Ion Starfighter"
+    "vehicle_name": "Ares Star Fighter Ion"
   },
   {
     "id": 612,
@@ -10112,7 +10112,7 @@
     "game_version": "4.1.1",
     "date_added": 1747677797,
     "date_modified": 1748460203,
-    "vehicle_name": "Constellation Phoenix"
+    "vehicle_name": "Constellation Mk IV Phoenix"
   },
   {
     "id": 624,
@@ -11132,7 +11132,7 @@
     "game_version": "4.1.1",
     "date_added": 1749798485,
     "date_modified": 0,
-    "vehicle_name": "San tok.Yāi"
+    "vehicle_name": "San'tok.yāi"
   },
   {
     "id": 684,
@@ -11251,7 +11251,7 @@
     "game_version": "4.3.1",
     "date_added": 1758999653,
     "date_modified": 0,
-    "vehicle_name": "Constellation Aquila"
+    "vehicle_name": "Constellation Mk IV Aquila"
   },
   {
     "id": 691,
@@ -11268,7 +11268,7 @@
     "game_version": "4.3.1",
     "date_added": 1758999653,
     "date_modified": 0,
-    "vehicle_name": "Constellation Taurus"
+    "vehicle_name": "Constellation Mk IV Taurus"
   },
   {
     "id": 692,
@@ -11880,7 +11880,7 @@
     "game_version": "4.7.1",
     "date_added": 1776250113,
     "date_modified": 0,
-    "vehicle_name": "Ballista"
+    "vehicle_name": "HM6 Ballista"
   },
   {
     "id": 728,
@@ -11931,7 +11931,7 @@
     "game_version": "4.7.1",
     "date_added": 1776250218,
     "date_modified": 0,
-    "vehicle_name": "Centurion"
+    "vehicle_name": "HM6 Centurion"
   },
   {
     "id": 731,
@@ -12917,7 +12917,7 @@
     "game_version": "4.7.1",
     "date_added": 1776251988,
     "date_modified": 0,
-    "vehicle_name": "Constellation Andromeda"
+    "vehicle_name": "Constellation Mk IV Andromeda"
   },
   {
     "id": 789,
@@ -12934,7 +12934,7 @@
     "game_version": "4.7.1",
     "date_added": 1776252004,
     "date_modified": 0,
-    "vehicle_name": "Constellation Aquila"
+    "vehicle_name": "Constellation Mk IV Aquila"
   },
   {
     "id": 790,
@@ -12951,7 +12951,7 @@
     "game_version": "4.7.1",
     "date_added": 1776252022,
     "date_modified": 0,
-    "vehicle_name": "Constellation Taurus"
+    "vehicle_name": "Constellation Mk IV Taurus"
   },
   {
     "id": 791,
@@ -13283,14 +13283,14 @@
     "price_warbond": 700,
     "price_package": 0,
     "price_concierge": 0,
-    "on_sale": 1,
+    "on_sale": 0,
     "on_sale_warbond": 0,
     "on_sale_package": 0,
     "on_sale_concierge": 0,
     "currency": "USD",
-    "game_version": "4.8.0",
+    "game_version": "4.10.3",
     "date_added": 1779296085,
-    "date_modified": 1779296085,
+    "date_modified": 1794525525,
     "vehicle_name": "Tiburon"
   },
   {
@@ -13377,5 +13377,243 @@
     "date_added": 1787835691,
     "date_modified": 1787835691,
     "vehicle_name": "S-65 Stingray"
+  },
+  {
+    "id": 816,
+    "id_vehicle": 278,
+    "price": 47,
+    "price_warbond": 0,
+    "price_package": 0,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 0,
+    "on_sale_concierge": 0,
+    "currency": "EUR-NL",
+    "game_version": "4.10.1",
+    "date_added": 1789833797,
+    "date_modified": 0,
+    "vehicle_name": "Aurora Mk II"
+  },
+  {
+    "id": 817,
+    "id_vehicle": 280,
+    "price": 42,
+    "price_warbond": 0,
+    "price_package": 0,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 0,
+    "on_sale_concierge": 0,
+    "currency": "EUR-NL",
+    "game_version": "4.10.1",
+    "date_added": 1789834692,
+    "date_modified": 0,
+    "vehicle_name": "UTV"
+  },
+  {
+    "id": 818,
+    "id_vehicle": 274,
+    "price": 184,
+    "price_warbond": 168,
+    "price_package": 0,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 1,
+    "on_sale_package": 0,
+    "on_sale_concierge": 0,
+    "currency": "EUR-NL",
+    "game_version": "4.10.1",
+    "date_added": 1789834904,
+    "date_modified": 1789834904,
+    "vehicle_name": "S-65 Stingray"
+  },
+  {
+    "id": 819,
+    "id_vehicle": 271,
+    "price": 63,
+    "price_warbond": 0,
+    "price_package": 79,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 1,
+    "on_sale_concierge": 0,
+    "currency": "EUR-NL",
+    "game_version": "4.10.1",
+    "date_added": 1789835093,
+    "date_modified": 1789835093,
+    "vehicle_name": "Salvation"
+  },
+  {
+    "id": 820,
+    "id_vehicle": 268,
+    "price": 158,
+    "price_warbond": 0,
+    "price_package": 0,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 0,
+    "on_sale_concierge": 0,
+    "currency": "EUR-NL",
+    "game_version": "4.10.1",
+    "date_added": 1789835320,
+    "date_modified": 0,
+    "vehicle_name": "Clipper"
+  },
+  {
+    "id": 821,
+    "id_vehicle": 251,
+    "price": 63,
+    "price_warbond": 0,
+    "price_package": 79,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 1,
+    "on_sale_concierge": 0,
+    "currency": "EUR-NL",
+    "game_version": "4.10.1",
+    "date_added": 1789835383,
+    "date_modified": 1789835383,
+    "vehicle_name": "Golem"
+  },
+  {
+    "id": 822,
+    "id_vehicle": 233,
+    "price": 42,
+    "price_warbond": 0,
+    "price_package": 0,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 0,
+    "on_sale_concierge": 0,
+    "currency": "EUR-NL",
+    "game_version": "4.10.1",
+    "date_added": 1789835910,
+    "date_modified": 0,
+    "vehicle_name": "ATLS"
+  },
+  {
+    "id": 823,
+    "id_vehicle": 231,
+    "price": 684,
+    "price_warbond": 0,
+    "price_package": 0,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 0,
+    "on_sale_concierge": 0,
+    "currency": "EUR-NL",
+    "game_version": "4.10.1",
+    "date_added": 1789835987,
+    "date_modified": 0,
+    "vehicle_name": "Ironclad Assault"
+  },
+  {
+    "id": 824,
+    "id_vehicle": 17,
+    "price": 263,
+    "price_warbond": 0,
+    "price_package": 0,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 0,
+    "on_sale_concierge": 0,
+    "currency": "EUR-NL",
+    "game_version": "4.10.1",
+    "date_added": 1789868603,
+    "date_modified": 0,
+    "vehicle_name": "Ares Star Fighter Inferno"
+  },
+  {
+    "id": 825,
+    "id_vehicle": 18,
+    "price": 263,
+    "price_warbond": 0,
+    "price_package": 0,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 0,
+    "on_sale_concierge": 0,
+    "currency": "EUR-NL",
+    "game_version": "4.10.1",
+    "date_added": 1789868812,
+    "date_modified": 0,
+    "vehicle_name": "Ares Star Fighter Ion"
+  },
+  {
+    "id": 826,
+    "id_vehicle": 29,
+    "price": 89,
+    "price_warbond": 0,
+    "price_package": 0,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 0,
+    "on_sale_concierge": 0,
+    "currency": "EUR-NL",
+    "game_version": "4.10.1",
+    "date_added": 1789870241,
+    "date_modified": 0,
+    "vehicle_name": "Avenger Warlock"
+  },
+  {
+    "id": 827,
+    "id_vehicle": 289,
+    "price": 116,
+    "price_warbond": 0,
+    "price_package": 0,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 0,
+    "on_sale_concierge": 0,
+    "currency": "EUR-NL",
+    "game_version": "4.10.1",
+    "date_added": 1789913982,
+    "date_modified": 0,
+    "vehicle_name": "Basher"
+  },
+  {
+    "id": 828,
+    "id_vehicle": 290,
+    "price": 185,
+    "price_warbond": 165,
+    "price_package": 0,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 0,
+    "on_sale_concierge": 0,
+    "currency": "USD",
+    "game_version": "4.10.1",
+    "date_added": 1789995511,
+    "date_modified": 1789995511,
+    "vehicle_name": "Sabre Raven EX"
+  },
+  {
+    "id": 829,
+    "id_vehicle": 292,
+    "price": 300,
+    "price_warbond": 275,
+    "price_package": 0,
+    "price_concierge": 0,
+    "on_sale": 1,
+    "on_sale_warbond": 0,
+    "on_sale_package": 0,
+    "on_sale_concierge": 0,
+    "currency": "USD",
+    "game_version": "4.10.2",
+    "date_added": 1792079278,
+    "date_modified": 1792079278,
+    "vehicle_name": "Constellation Mk V Centaurus"
   }
 ]

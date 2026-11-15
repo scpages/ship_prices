@@ -11,14 +11,7 @@
     "type": "multi",
     "flyableStatus": "Flyable",
     "msrp": 2000,
-    "skus": [
-      {
-        "id": 12988,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 2000
-      }
-    ]
+    "skus": []
   },
   {
     "id": 3,
@@ -32,14 +25,7 @@
     "type": "exploration",
     "flyableStatus": "Flyable",
     "msrp": 3500,
-    "skus": [
-      {
-        "id": 14031,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 3500
-      }
-    ]
+    "skus": []
   },
   {
     "id": 4,
@@ -53,14 +39,7 @@
     "type": "transport",
     "flyableStatus": "Flyable",
     "msrp": 3000,
-    "skus": [
-      {
-        "id": 14032,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 3000
-      }
-    ]
+    "skus": []
   },
   {
     "id": 5,
@@ -74,14 +53,7 @@
     "type": "transport",
     "flyableStatus": "Flyable",
     "msrp": 4500,
-    "skus": [
-      {
-        "id": 12991,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 4500
-      }
-    ]
+    "skus": []
   },
   {
     "id": 6,
@@ -95,14 +67,7 @@
     "type": "transport",
     "flyableStatus": "Flyable",
     "msrp": 4000,
-    "skus": [
-      {
-        "id": 14030,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 4000
-      }
-    ]
+    "skus": []
   },
   {
     "id": 7,
@@ -185,7 +150,14 @@
     "type": "competition",
     "flyableStatus": "Flyable",
     "msrp": 12500,
-    "skus": []
+    "skus": [
+      {
+        "id": 12996,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 12500
+      }
+    ]
   },
   {
     "id": 11,
@@ -367,18 +339,6 @@
     "msrp": 15000,
     "skus": [
       {
-        "id": 19606,
-        "title": "Imperator Subscribers Edition",
-        "available": true,
-        "price": 15000
-      },
-      {
-        "id": 19601,
-        "title": "Centurion Subscribers Edition",
-        "available": true,
-        "price": 15000
-      },
-      {
         "id": 13007,
         "title": "Standard Edition",
         "available": true,
@@ -409,7 +369,7 @@
   },
   {
     "id": 35,
-    "name": "Khartu-Al",
+    "name": "Khartu-al",
     "link": "/pledge/ships/khartu/Khartu-Al",
     "manufacturer": {
       "id": 81,
@@ -431,6 +391,18 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 16000
+      },
+      {
+        "id": 19801,
+        "title": "Imperator Subscribers Edition",
+        "available": true,
+        "price": 17500
+      },
+      {
+        "id": 19799,
+        "title": "Centurion Subscribers Edition",
+        "available": true,
+        "price": 17500
       }
     ]
   },
@@ -484,8 +456,8 @@
   },
   {
     "id": 45,
-    "name": "Constellation Andromeda",
-    "link": "/pledge/ships/rsi-constellation/Constellation-Andromeda",
+    "name": "Constellation Mk IV Andromeda",
+    "link": "/pledge/ships/rsi-constellation/Constellation-Mk-IV-Andromeda",
     "manufacturer": {
       "id": 1,
       "name": "Roberts Space Industries"
@@ -505,8 +477,8 @@
   },
   {
     "id": 46,
-    "name": "Constellation Taurus",
-    "link": "/pledge/ships/rsi-constellation/Constellation-Taurus",
+    "name": "Constellation Mk IV Taurus",
+    "link": "/pledge/ships/rsi-constellation/Constellation-Mk-IV-Taurus",
     "manufacturer": {
       "id": 1,
       "name": "Roberts Space Industries"
@@ -532,8 +504,8 @@
   },
   {
     "id": 47,
-    "name": "Constellation Aquila",
-    "link": "/pledge/ships/rsi-constellation/Constellation-Aquila",
+    "name": "Constellation Mk IV Aquila",
+    "link": "/pledge/ships/rsi-constellation/Constellation-Mk-IV-Aquila",
     "manufacturer": {
       "id": 1,
       "name": "Roberts Space Industries"
@@ -553,8 +525,8 @@
   },
   {
     "id": 49,
-    "name": "Constellation Phoenix",
-    "link": "/pledge/ships/rsi-constellation/Constellation-Phoenix",
+    "name": "Constellation Mk IV Phoenix",
+    "link": "/pledge/ships/rsi-constellation/Constellation-Mk-IV-Phoenix",
     "manufacturer": {
       "id": 1,
       "name": "Roberts Space Industries"
@@ -563,7 +535,14 @@
     "type": "exploration",
     "flyableStatus": "Flyable",
     "msrp": 35000,
-    "skus": []
+    "skus": [
+      {
+        "id": 19319,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 35000
+      }
+    ]
   },
   {
     "id": 51,
@@ -750,6 +729,12 @@
         "price": 56000
       },
       {
+        "id": 13375,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 60000
+      },
+      {
         "id": 13023,
         "title": "Anvil Carrack Upgrade",
         "available": true,
@@ -775,7 +760,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 16500,
-    "skus": []
+    "skus": [
+      {
+        "id": 13024,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 16500
+      }
+    ]
   },
   {
     "id": 65,
@@ -866,7 +858,14 @@
     "type": "industrial",
     "flyableStatus": "Concept",
     "msrp": 65000,
-    "skus": []
+    "skus": [
+      {
+        "id": 16328,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 65000
+      }
+    ]
   },
   {
     "id": 75,
@@ -915,14 +914,7 @@
     "type": "transport",
     "flyableStatus": "Flyable",
     "msrp": 28000,
-    "skus": [
-      {
-        "id": 19602,
-        "title": "Imperator Subscribers Edition",
-        "available": true,
-        "price": 28000
-      }
-    ]
+    "skus": []
   },
   {
     "id": 86,
@@ -1068,14 +1060,7 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 29000,
-    "skus": [
-      {
-        "id": 13044,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 29000
-      }
-    ]
+    "skus": []
   },
   {
     "id": 96,
@@ -1089,14 +1074,7 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 27500,
-    "skus": [
-      {
-        "id": 13045,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 27500
-      }
-    ]
+    "skus": []
   },
   {
     "id": 97,
@@ -1179,12 +1157,6 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 8000
-      },
-      {
-        "id": 13050,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 8500
       }
     ]
   },
@@ -1221,7 +1193,14 @@
     "type": "support",
     "flyableStatus": "Concept",
     "msrp": 35000,
-    "skus": []
+    "skus": [
+      {
+        "id": 13053,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 35000
+      }
+    ]
   },
   {
     "id": 104,
@@ -1422,6 +1401,12 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 20000
+      },
+      {
+        "id": 13064,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 22000
       }
     ]
   },
@@ -1437,7 +1422,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 97500,
-    "skus": []
+    "skus": [
+      {
+        "id": 17639,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 97500
+      }
+    ]
   },
   {
     "id": 117,
@@ -1507,7 +1499,14 @@
     "type": "exploration",
     "flyableStatus": "Flyable",
     "msrp": 5000,
-    "skus": []
+    "skus": [
+      {
+        "id": 13070,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 5000
+      }
+    ]
   },
   {
     "id": 124,
@@ -1572,6 +1571,12 @@
     "msrp": 21000,
     "skus": [
       {
+        "id": 15980,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 21000
+      },
+      {
         "id": 14149,
         "title": "Warbond Edition",
         "available": true,
@@ -1611,12 +1616,6 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 27500
-      },
-      {
-        "id": 13076,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 30000
       }
     ]
   },
@@ -1758,7 +1757,14 @@
     "type": "exploration",
     "flyableStatus": "Flyable",
     "msrp": 43500,
-    "skus": []
+    "skus": [
+      {
+        "id": 13085,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 43500
+      }
+    ]
   },
   {
     "id": 141,
@@ -1784,6 +1790,12 @@
         "title": "BIS Warbond Edition",
         "available": true,
         "price": 44500
+      },
+      {
+        "id": 13086,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 47500
       }
     ]
   },
@@ -1820,7 +1832,14 @@
     "type": "competition",
     "flyableStatus": "Flyable",
     "msrp": 5000,
-    "skus": []
+    "skus": [
+      {
+        "id": 16667,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 5000
+      }
+    ]
   },
   {
     "id": 147,
@@ -1834,7 +1853,14 @@
     "type": "exploration",
     "flyableStatus": "Flyable",
     "msrp": 5500,
-    "skus": []
+    "skus": [
+      {
+        "id": 16664,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 5500
+      }
+    ]
   },
   {
     "id": 149,
@@ -1862,7 +1888,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 10000,
-    "skus": []
+    "skus": [
+      {
+        "id": 13090,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 10000
+      }
+    ]
   },
   {
     "id": 151,
@@ -1904,20 +1937,6 @@
     "type": "multi",
     "flyableStatus": "Concept",
     "msrp": 20000,
-    "skus": []
-  },
-  {
-    "id": 156,
-    "name": "Constellation Phoenix Emerald",
-    "link": "/pledge/ships/rsi-constellation/Constellation-Phoenix-Emerald",
-    "manufacturer": {
-      "id": 1,
-      "name": "Roberts Space Industries"
-    },
-    "focus": "Touring",
-    "type": "exploration",
-    "flyableStatus": "Flyable",
-    "msrp": 35000,
     "skus": []
   },
   {
@@ -2035,12 +2054,6 @@
         "title": "BIS Warbond Edition",
         "available": true,
         "price": 36500
-      },
-      {
-        "id": 14445,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 40000
       }
     ]
   },
@@ -2057,12 +2070,6 @@
     "flyableStatus": "Flyable",
     "msrp": 52000,
     "skus": [
-      {
-        "id": 14446,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 52000
-      },
       {
         "id": 14435,
         "title": "Warbond Edition",
@@ -2083,14 +2090,7 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 75000,
-    "skus": [
-      {
-        "id": 14609,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 75000
-      }
-    ]
+    "skus": []
   },
   {
     "id": 165,
@@ -2137,7 +2137,14 @@
     "type": "support",
     "flyableStatus": "Flyable",
     "msrp": 26000,
-    "skus": []
+    "skus": [
+      {
+        "id": 18447,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 26000
+      }
+    ]
   },
   {
     "id": 167,
@@ -2151,7 +2158,14 @@
     "type": "support",
     "flyableStatus": "Flyable",
     "msrp": 29000,
-    "skus": []
+    "skus": [
+      {
+        "id": 18446,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 29000
+      }
+    ]
   },
   {
     "id": 168,
@@ -2177,12 +2191,6 @@
         "title": "BIS Warbond Edition",
         "available": true,
         "price": 23000
-      },
-      {
-        "id": 14348,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 26000
       }
     ]
   },
@@ -2204,6 +2212,12 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 35000
+      },
+      {
+        "id": 13107,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 37500
       },
       {
         "id": 13970,
@@ -2328,12 +2342,6 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 23000
-      },
-      {
-        "id": 15599,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 25000
       }
     ]
   },
@@ -2550,12 +2558,6 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 22000
-      },
-      {
-        "id": 14762,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 25000
       }
     ]
   },
@@ -2583,12 +2585,6 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 22000
-      },
-      {
-        "id": 14761,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 25000
       }
     ]
   },
@@ -2716,7 +2712,14 @@
     "type": "ground",
     "flyableStatus": "Concept",
     "msrp": 6000,
-    "skus": []
+    "skus": [
+      {
+        "id": 13424,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 6000
+      }
+    ]
   },
   {
     "id": 209,
@@ -2730,7 +2733,14 @@
     "type": "competition",
     "flyableStatus": "Concept",
     "msrp": 6000,
-    "skus": []
+    "skus": [
+      {
+        "id": 13425,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 6000
+      }
+    ]
   },
   {
     "id": 210,
@@ -2744,7 +2754,14 @@
     "type": "ground",
     "flyableStatus": "Concept",
     "msrp": 6500,
-    "skus": []
+    "skus": [
+      {
+        "id": 13426,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 6500
+      }
+    ]
   },
   {
     "id": 211,
@@ -2828,7 +2845,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 80000,
-    "skus": []
+    "skus": [
+      {
+        "id": 18657,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 80000
+      }
+    ]
   },
   {
     "id": 218,
@@ -2916,7 +2940,14 @@
     "type": "transport",
     "flyableStatus": "Flyable",
     "msrp": 40000,
-    "skus": []
+    "skus": [
+      {
+        "id": 19803,
+        "title": "Imperator Subscribers Edition",
+        "available": true,
+        "price": 40000
+      }
+    ]
   },
   {
     "id": 223,
@@ -2930,7 +2961,14 @@
     "type": "exploration",
     "flyableStatus": "Flyable",
     "msrp": 25000,
-    "skus": []
+    "skus": [
+      {
+        "id": 14744,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 25000
+      }
+    ]
   },
   {
     "id": 224,
@@ -2942,9 +2980,22 @@
     },
     "focus": "Light Carrier",
     "type": "transport",
-    "flyableStatus": "Concept",
-    "msrp": 57500,
-    "skus": []
+    "flyableStatus": "Flyable",
+    "msrp": 60000,
+    "skus": [
+      {
+        "id": 19765,
+        "title": "Warbond Edition",
+        "available": true,
+        "price": 52500
+      },
+      {
+        "id": 19764,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 60000
+      }
+    ]
   },
   {
     "id": 225,
@@ -2964,6 +3015,12 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 6500
+      },
+      {
+        "id": 14867,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 8000
       }
     ]
   },
@@ -3070,7 +3127,14 @@
     "type": "combat",
     "flyableStatus": "Concept",
     "msrp": 12000,
-    "skus": []
+    "skus": [
+      {
+        "id": 15256,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 12000
+      }
+    ]
   },
   {
     "id": 233,
@@ -3249,9 +3313,22 @@
     },
     "focus": "Modular",
     "type": "multi",
-    "flyableStatus": "Concept",
-    "msrp": 38000,
-    "skus": []
+    "flyableStatus": "Flyable",
+    "msrp": 40000,
+    "skus": [
+      {
+        "id": 19829,
+        "title": "Warbond Edition",
+        "available": true,
+        "price": 36000
+      },
+      {
+        "id": 19828,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 40000
+      }
+    ]
   },
   {
     "id": 245,
@@ -3265,7 +3342,14 @@
     "type": "ground",
     "flyableStatus": "Flyable",
     "msrp": 6000,
-    "skus": []
+    "skus": [
+      {
+        "id": 15948,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 6000
+      }
+    ]
   },
   {
     "id": 246,
@@ -3337,6 +3421,12 @@
     "msrp": 17500,
     "skus": [
       {
+        "id": 17417,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 17500
+      },
+      {
         "id": 16231,
         "title": "Standard Upgrade",
         "available": true,
@@ -3356,7 +3446,14 @@
     "type": "combat",
     "flyableStatus": "Concept",
     "msrp": 19000,
-    "skus": []
+    "skus": [
+      {
+        "id": 16239,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 19000
+      }
+    ]
   },
   {
     "id": 257,
@@ -3371,6 +3468,12 @@
     "flyableStatus": "Flyable",
     "msrp": 17500,
     "skus": [
+      {
+        "id": 17420,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 17500
+      },
       {
         "id": 16235,
         "title": "Standard Upgrade",
@@ -3405,7 +3508,14 @@
     "type": "industrial",
     "flyableStatus": "Concept",
     "msrp": 57500,
-    "skus": []
+    "skus": [
+      {
+        "id": 16343,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 57500
+      }
+    ]
   },
   {
     "id": 264,
@@ -3559,7 +3669,14 @@
     "type": "ground",
     "flyableStatus": "Flyable",
     "msrp": 6000,
-    "skus": []
+    "skus": [
+      {
+        "id": 16882,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 6000
+      }
+    ]
   },
   {
     "id": 274,
@@ -3587,20 +3704,7 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 65000,
-    "skus": [
-      {
-        "id": 19578,
-        "title": "Warbond Edition",
-        "available": true,
-        "price": 60000
-      },
-      {
-        "id": 19098,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 65000
-      }
-    ]
+    "skus": []
   },
   {
     "id": 276,
@@ -3705,7 +3809,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 35000,
-    "skus": []
+    "skus": [
+      {
+        "id": 18602,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 35000
+      }
+    ]
   },
   {
     "id": 283,
@@ -3725,6 +3836,12 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 20000
+      },
+      {
+        "id": 17710,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 22000
       }
     ]
   },
@@ -3740,7 +3857,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 18500,
-    "skus": []
+    "skus": [
+      {
+        "id": 17683,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 18500
+      }
+    ]
   },
   {
     "id": 285,
@@ -3754,7 +3878,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 18500,
-    "skus": []
+    "skus": [
+      {
+        "id": 17679,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 18500
+      }
+    ]
   },
   {
     "id": 286,
@@ -3810,7 +3941,20 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 24000,
-    "skus": []
+    "skus": [
+      {
+        "id": 19321,
+        "title": "Warbond Edition",
+        "available": true,
+        "price": 22000
+      },
+      {
+        "id": 17974,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 24000
+      }
+    ]
   },
   {
     "id": 295,
@@ -3922,7 +4066,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 26000,
-    "skus": []
+    "skus": [
+      {
+        "id": 18334,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 26000
+      }
+    ]
   },
   {
     "id": 302,
@@ -3971,20 +4122,7 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 15000,
-    "skus": [
-      {
-        "id": 18879,
-        "title": "Warbond Edition",
-        "available": true,
-        "price": 13500
-      },
-      {
-        "id": 18613,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 15000
-      }
-    ]
+    "skus": []
   },
   {
     "id": 305,
@@ -4047,14 +4185,7 @@
     "type": "exploration",
     "flyableStatus": "Flyable",
     "msrp": 15000,
-    "skus": [
-      {
-        "id": 18702,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 15000
-      }
-    ]
+    "skus": []
   },
   {
     "id": 309,
@@ -4082,7 +4213,14 @@
     "type": "transport",
     "flyableStatus": "Flyable",
     "msrp": 22000,
-    "skus": []
+    "skus": [
+      {
+        "id": 18868,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 22000
+      }
+    ]
   },
   {
     "id": 311,
@@ -4166,7 +4304,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 30000,
-    "skus": []
+    "skus": [
+      {
+        "id": 19184,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 30000
+      }
+    ]
   },
   {
     "id": 316,
@@ -4236,14 +4381,7 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 11000,
-    "skus": [
-      {
-        "id": 19431,
-        "title": "Standard Edition",
-        "available": true,
-        "price": 11000
-      }
-    ]
+    "skus": []
   },
   {
     "id": 322,
@@ -4257,18 +4395,53 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 17500,
+    "skus": []
+  },
+  {
+    "id": 325,
+    "name": "Constellation Mk V Centaurus",
+    "link": "/pledge/ships/constellation-mk-v/Constellation-Mk-V-Centaurus",
+    "manufacturer": {
+      "id": 1,
+      "name": "Roberts Space Industries"
+    },
+    "focus": "Medium Freight / Gun Ship",
+    "type": "multi",
+    "flyableStatus": "Flyable",
+    "msrp": 30000,
     "skus": [
       {
-        "id": 19460,
+        "id": 19671,
         "title": "Warbond Edition",
         "available": true,
-        "price": 16000
+        "price": 27500
       },
       {
-        "id": 19461,
+        "id": 19639,
         "title": "Standard Edition",
         "available": true,
-        "price": 17500
+        "price": 30000
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "name": "Skylark",
+    "link": "/pledge/ships/skylark/Skylark",
+    "manufacturer": {
+      "id": 1,
+      "name": "Roberts Space Industries"
+    },
+    "focus": "Snub Fighter",
+    "type": "combat",
+    "flyableStatus": "Flyable",
+    "msrp": 4500,
+    "skus": [
+      {
+        "id": 19730,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 4500
       }
     ]
   },
