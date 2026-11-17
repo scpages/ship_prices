@@ -41,6 +41,8 @@ const RSI_NAME_OVERRIDES = {
   "San’tok.yāi":    "Aopoa San tok.Yāi",
   "Carrack w/C8X":            "Anvil Carrack",
   "Carrack Expedition w/C8X": "Anvil Carrack Expedition",
+  "Ares Inferno":             "Crusader Ares Star Fighter Inferno",
+  "Ares Ion":                 "Crusader Ares Star Fighter Ion",
   "Gladius Pirate Edition":   "Aegis Gladius Pirate",
   "Sabre Raven EX":           "Aegis Sabre Raven",
   "ATLS IKTI Akuma":          null,
