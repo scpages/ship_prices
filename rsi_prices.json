@@ -283,6 +283,12 @@
         "price": 29500
       },
       {
+        "id": 14892,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 33000
+      },
+      {
         "id": 13261,
         "title": "Drake Caterpillar Best in Show Edition Upgrade",
         "available": true,
@@ -636,6 +642,12 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 12500
+      },
+      {
+        "id": 15978,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 13500
       }
     ]
   },
@@ -651,7 +663,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 17500,
-    "skus": []
+    "skus": [
+      {
+        "id": 13517,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 17500
+      }
+    ]
   },
   {
     "id": 59,
@@ -707,7 +726,14 @@
     "type": "transport",
     "flyableStatus": "Flyable",
     "msrp": 8500,
-    "skus": []
+    "skus": [
+      {
+        "id": 13022,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 8500
+      }
+    ]
   },
   {
     "id": 62,
@@ -1011,7 +1037,14 @@
     "type": "transport",
     "flyableStatus": "Concept",
     "msrp": 40000,
-    "skus": []
+    "skus": [
+      {
+        "id": 13041,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 40000
+      }
+    ]
   },
   {
     "id": 92,
@@ -1311,7 +1344,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 11000,
-    "skus": []
+    "skus": [
+      {
+        "id": 13059,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 11000
+      }
+    ]
   },
   {
     "id": 111,
@@ -1680,7 +1720,14 @@
     "type": "ground",
     "flyableStatus": "Flyable",
     "msrp": 6500,
-    "skus": []
+    "skus": [
+      {
+        "id": 13080,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 6500
+      }
+    ]
   },
   {
     "id": 136,
@@ -1694,7 +1741,14 @@
     "type": "ground",
     "flyableStatus": "Flyable",
     "msrp": 6500,
-    "skus": []
+    "skus": [
+      {
+        "id": 13081,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 6500
+      }
+    ]
   },
   {
     "id": 137,
@@ -1708,7 +1762,14 @@
     "type": "ground",
     "flyableStatus": "Flyable",
     "msrp": 6500,
-    "skus": []
+    "skus": [
+      {
+        "id": 13082,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 6500
+      }
+    ]
   },
   {
     "id": 138,
@@ -1722,7 +1783,14 @@
     "type": "ground",
     "flyableStatus": "Flyable",
     "msrp": 8000,
-    "skus": []
+    "skus": [
+      {
+        "id": 13083,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 8000
+      }
+    ]
   },
   {
     "id": 139,
@@ -1923,7 +1991,14 @@
     "type": "ground",
     "flyableStatus": "Flyable",
     "msrp": 12000,
-    "skus": []
+    "skus": [
+      {
+        "id": 14443,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 12000
+      }
+    ]
   },
   {
     "id": 155,
@@ -2054,6 +2129,12 @@
         "title": "BIS Warbond Edition",
         "available": true,
         "price": 36500
+      },
+      {
+        "id": 14445,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 40000
       }
     ]
   },
@@ -2070,6 +2151,12 @@
     "flyableStatus": "Flyable",
     "msrp": 52000,
     "skus": [
+      {
+        "id": 14446,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 52000
+      },
       {
         "id": 14435,
         "title": "Warbond Edition",
@@ -2090,7 +2177,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 75000,
-    "skus": []
+    "skus": [
+      {
+        "id": 14609,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 75000
+      }
+    ]
   },
   {
     "id": 165,
@@ -2191,6 +2285,12 @@
         "title": "BIS Warbond Edition",
         "available": true,
         "price": 23000
+      },
+      {
+        "id": 14348,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 26000
       }
     ]
   },
@@ -2342,6 +2442,12 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 23000
+      },
+      {
+        "id": 15599,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 25000
       }
     ]
   },
@@ -2371,7 +2477,14 @@
     "type": "ground",
     "flyableStatus": "Concept",
     "msrp": 3500,
-    "skus": []
+    "skus": [
+      {
+        "id": 13115,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 3500
+      }
+    ]
   },
   {
     "id": 181,
@@ -2385,7 +2498,14 @@
     "type": "ground",
     "flyableStatus": "Concept",
     "msrp": 4000,
-    "skus": []
+    "skus": [
+      {
+        "id": 13116,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 4000
+      }
+    ]
   },
   {
     "id": 182,
@@ -2399,7 +2519,14 @@
     "type": "ground",
     "flyableStatus": "Concept",
     "msrp": 3500,
-    "skus": []
+    "skus": [
+      {
+        "id": 13117,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 3500
+      }
+    ]
   },
   {
     "id": 183,
@@ -2558,6 +2685,12 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 22000
+      },
+      {
+        "id": 14762,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 25000
       }
     ]
   },
@@ -2585,6 +2718,12 @@
         "title": "Warbond Edition",
         "available": true,
         "price": 22000
+      },
+      {
+        "id": 14761,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 25000
       }
     ]
   },
@@ -2866,7 +3005,14 @@
     "type": "ground",
     "flyableStatus": "Flyable",
     "msrp": 7500,
-    "skus": []
+    "skus": [
+      {
+        "id": 14174,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 7500
+      }
+    ]
   },
   {
     "id": 219,
@@ -3064,7 +3210,20 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 23500,
-    "skus": []
+    "skus": [
+      {
+        "id": 19870,
+        "title": "Warbond Edition",
+        "available": true,
+        "price": 21000
+      },
+      {
+        "id": 15063,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 23500
+      }
+    ]
   },
   {
     "id": 229,
@@ -3196,7 +3355,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 20000,
-    "skus": []
+    "skus": [
+      {
+        "id": 16642,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 20000
+      }
+    ]
   },
   {
     "id": 239,
@@ -3211,6 +3377,12 @@
     "flyableStatus": "Concept",
     "msrp": 15000,
     "skus": [
+      {
+        "id": 17765,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 15000
+      },
       {
         "id": 15457,
         "title": "Standard Edition",
@@ -3391,7 +3563,14 @@
     "type": "ground",
     "flyableStatus": "Flyable",
     "msrp": 9000,
-    "skus": []
+    "skus": [
+      {
+        "id": 16283,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 9000
+      }
+    ]
   },
   {
     "id": 250,
@@ -3494,7 +3673,14 @@
     "type": "exploration",
     "flyableStatus": "Flyable",
     "msrp": 5000,
-    "skus": []
+    "skus": [
+      {
+        "id": 16250,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 5000
+      }
+    ]
   },
   {
     "id": 260,
@@ -3529,7 +3715,14 @@
     "type": "ground",
     "flyableStatus": "Flyable",
     "msrp": 10000,
-    "skus": []
+    "skus": [
+      {
+        "id": 16286,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 10000
+      }
+    ]
   },
   {
     "id": 265,
@@ -3564,7 +3757,14 @@
     "type": "exploration",
     "flyableStatus": "Flyable",
     "msrp": 5000,
-    "skus": []
+    "skus": [
+      {
+        "id": 16567,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 5000
+      }
+    ]
   },
   {
     "id": 267,
@@ -3690,7 +3890,14 @@
     "type": "transport",
     "flyableStatus": "Flyable",
     "msrp": 60000,
-    "skus": []
+    "skus": [
+      {
+        "id": 19088,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 60000
+      }
+    ]
   },
   {
     "id": 275,
@@ -3704,7 +3911,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 65000,
-    "skus": []
+    "skus": [
+      {
+        "id": 19098,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 65000
+      }
+    ]
   },
   {
     "id": 276,
@@ -3943,12 +4157,6 @@
     "msrp": 24000,
     "skus": [
       {
-        "id": 19321,
-        "title": "Warbond Edition",
-        "available": true,
-        "price": 22000
-      },
-      {
         "id": 17974,
         "title": "Standard Edition",
         "available": true,
@@ -4185,7 +4393,14 @@
     "type": "exploration",
     "flyableStatus": "Flyable",
     "msrp": 15000,
-    "skus": []
+    "skus": [
+      {
+        "id": 18702,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 15000
+      }
+    ]
   },
   {
     "id": 309,
@@ -4199,7 +4414,14 @@
     "type": "transport",
     "flyableStatus": "Flyable",
     "msrp": 9000,
-    "skus": []
+    "skus": [
+      {
+        "id": 18668,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 9000
+      }
+    ]
   },
   {
     "id": 310,
@@ -4339,7 +4561,14 @@
     "type": "combat",
     "flyableStatus": "Flyable",
     "msrp": 5500,
-    "skus": []
+    "skus": [
+      {
+        "id": 19205,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 5500
+      }
+    ]
   },
   {
     "id": 319,
@@ -4483,6 +4712,33 @@
         "title": "Standard Edition",
         "available": true,
         "price": 18500
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "name": "Marauder",
+    "link": "/pledge/ships/marauder/Marauder",
+    "manufacturer": {
+      "id": 5,
+      "name": "Drake Interplanetary"
+    },
+    "focus": "Medium Fighter",
+    "type": "combat",
+    "flyableStatus": "Flyable",
+    "msrp": 15000,
+    "skus": [
+      {
+        "id": 19758,
+        "title": "Warbond Edition",
+        "available": true,
+        "price": 13500
+      },
+      {
+        "id": 19753,
+        "title": "Standard Edition",
+        "available": true,
+        "price": 15000
       }
     ]
   }
