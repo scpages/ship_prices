@@ -1,46 +1,40 @@
 # Ship Prices
 
-Fetches ship price data from the [UEX Corp API](https://uexcorp.space) and generates a static HTML page listing all ships with their pledge and in-game prices.
+Generates a static HTML page listing Star Citizen ships with their pledge (USD)
+and in-game (aUEC) prices. Pledge data comes from RSI; aUEC data from UEX Corp.
 
 Live at: **https://scpages.github.io/ship-prices/**
 
-## What it shows
+## How it works
 
-**Table 1 — All Ships** (sorted by pledge price ascending):
+Data is split into raw source exports and a human-curated master list:
 
-| Column | Description |
-|---|---|
-| Ship | Ship name & manufacturer |
-| Pledge (USD) | Current pledge store price |
-| Buy (aUEC) | In-game purchase price |
-| Buy Location | City · Terminal |
+| File | Produced by | Purpose |
+|---|---|---|
+| `rsi_ships.json` | `get_ships_from_rsi.js` | Ship names + USD pledge prices (RSI) |
+| `uex_ships.json` | `get_ships_from_uex.js` | aUEC buy/rent prices + locations (UEX) |
+| `relation_uex-rsi.json` | **hand-curated** | The master ship list; pairs each RSI ship with its UEX vehicle |
+| `index.html` | `generate_website.js` | The rendered page |
 
-**Table 2 — Rentable Ships:**
-
-| Column | Description |
-|---|---|
-| Ship | Ship name & manufacturer |
-| Rent (aUEC) | In-game rental price |
-| Rent Location | City · Terminal |
+`relation_uex-rsi.json` is the source of truth for which ships appear. It joins
+the RSI ship `name` to the UEX vehicle `id`; either side may be `null`. This
+replaces fragile automatic name-matching — the RSI↔UEX pairing is decided once by
+a human and recorded. See `NOTES.md` for the schema, skip rules, and how to add a ship.
 
 ## Workflow
 
 ```bash
-# Generate HTML from local JSON data
-bash main.sh
-
-# Fetch fresh data from UEX Corp API, then commit + push
+# Refresh the two source exports (does not commit)
 bash update.sh
-```
 
-`main.sh` only reads local JSON files and regenerates `index.html`.
-`update.sh` fetches from the UEX API and pushes if data changed.
+# ...manually reconcile relation_uex-rsi.json for any added/removed ships...
+
+# Regenerate index.html from the three data files
+bash main.sh
+```
 
 ## Data Sources
 
-All data from [UEX Corp API](https://api.uexcorp.space/2.0/):
-
-- `/vehicles` — ship list
-- `/vehicles_prices` — pledge store prices
-- `/vehicles_purchases_prices` — in-game buy prices & locations
-- `/vehicles_rentals_prices` — in-game rental prices & locations
+- RSI ship-upgrade form (`initShipUpgrade` GraphQL) — ship list + pledge prices.
+- [UEX Corp API](https://api.uexcorp.space/2.0/) — `/vehicles`,
+  `/vehicles_purchases_prices`, `/vehicles_rentals_prices`.

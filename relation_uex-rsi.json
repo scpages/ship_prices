@@ -1,0 +1,1191 @@
+{
+  "_comment": "Master ship list + blacklist. See NOTES.md. ships[] renders; each must resolve to a USD price. blacklist[] = UEX entries intentionally not shown.",
+  "blacklist": [
+    {
+      "uex": 98,
+      "name": "Aegis Hammerhead Best In Show Edition"
+    },
+    {
+      "uex": 160,
+      "name": "Aegis Reclaimer Best In Show Edition"
+    },
+    {
+      "uex": 167,
+      "name": "Aegis Retaliator Bomber"
+    },
+    {
+      "uex": 217,
+      "name": "Aegis Retaliator Cargo Module - Bow"
+    },
+    {
+      "uex": 216,
+      "name": "Aegis Retaliator Cargo Module - Stern"
+    },
+    {
+      "uex": 221,
+      "name": "Aegis Retaliator Dropship Front Module"
+    },
+    {
+      "uex": 218,
+      "name": "Aegis Retaliator Living Front Module"
+    },
+    {
+      "uex": 219,
+      "name": "Aegis Retaliator Living Rear Module"
+    },
+    {
+      "uex": 220,
+      "name": "Aegis Retaliator Torpedo Module – Bow"
+    },
+    {
+      "uex": 254,
+      "name": "Aegis Retaliator Torpedo Module – Stern"
+    },
+    {
+      "uex": 290,
+      "name": "Aegis Sabre Raven EX"
+    },
+    {
+      "uex": 291,
+      "name": "Aegis Sabre Raven EX"
+    },
+    {
+      "uex": 272,
+      "name": "Anvil Auxilia"
+    },
+    {
+      "uex": 223,
+      "name": "Anvil F7A Hornet Mk II"
+    },
+    {
+      "uex": 222,
+      "name": "Anvil F8C Lightning Executive Edition"
+    },
+    {
+      "uex": 30,
+      "name": "Anvil HM6 Ballista"
+    },
+    {
+      "uex": 44,
+      "name": "Anvil HM6 Centurion"
+    },
+    {
+      "uex": 177,
+      "name": "Anvil HM6 Spartan"
+    },
+    {
+      "uex": 258,
+      "name": "Argo ATLS IKTI"
+    },
+    {
+      "uex": 260,
+      "name": "Argo ATLS IKTI GEO"
+    },
+    {
+      "uex": 261,
+      "name": "Argo ATLS IKTI GEO Rad"
+    },
+    {
+      "uex": 259,
+      "name": "Argo ATLS IKTI Rad"
+    },
+    {
+      "uex": 244,
+      "name": "Argo CSV-FM"
+    },
+    {
+      "uex": 42,
+      "name": "Drake Caterpillar Best In Show Edition"
+    },
+    {
+      "uex": 43,
+      "name": "Drake Caterpillar Pirate Edition"
+    },
+    {
+      "uex": 53,
+      "name": "Drake Cutlass Black Best In Show Edition"
+    },
+    {
+      "uex": 212,
+      "name": "MISC Endeavor Fuel Bay Pod"
+    },
+    {
+      "uex": 209,
+      "name": "MISC Endeavor General Research Pod"
+    },
+    {
+      "uex": 208,
+      "name": "MISC Endeavor Landing Bay Pod"
+    },
+    {
+      "uex": 210,
+      "name": "MISC Endeavor Medical Bay Pod"
+    },
+    {
+      "uex": 211,
+      "name": "MISC Endeavor Telescope Array Bay Pod"
+    },
+    {
+      "uex": 243,
+      "name": "MISC Starlancer BLD"
+    },
+    {
+      "uex": 9,
+      "name": "Origin 600i Executive Edition"
+    },
+    {
+      "uex": 293,
+      "name": "Roberts Space Industries Skylark"
+    },
+    {
+      "uex": 48,
+      "name": "RSI Constellation Mk IV Phoenix Emerald"
+    },
+    {
+      "uex": 213,
+      "name": "RSI Galaxy Cargo Module"
+    },
+    {
+      "uex": 214,
+      "name": "RSI Galaxy Medical Module"
+    },
+    {
+      "uex": 215,
+      "name": "RSI Galaxy Refinery Module"
+    }
+  ],
+  "ships": [
+    {
+      "rsi": "100i",
+      "uex": 1
+    },
+    {
+      "rsi": "125a",
+      "uex": 2
+    },
+    {
+      "rsi": "135c",
+      "uex": 3
+    },
+    {
+      "rsi": "300i",
+      "uex": 4
+    },
+    {
+      "rsi": "315p",
+      "uex": 5
+    },
+    {
+      "rsi": "325a",
+      "uex": 6
+    },
+    {
+      "rsi": "350r",
+      "uex": 7
+    },
+    {
+      "rsi": "400i",
+      "uex": 8
+    },
+    {
+      "rsi": "600i Explorer",
+      "uex": 10
+    },
+    {
+      "rsi": "600i Touring",
+      "uex": 11
+    },
+    {
+      "rsi": "85X",
+      "uex": 12
+    },
+    {
+      "rsi": "890 Jump",
+      "uex": 13
+    },
+    {
+      "rsi": "A1 Spirit",
+      "uex": 178
+    },
+    {
+      "rsi": "A2 Hercules",
+      "uex": 14
+    },
+    {
+      "rsi": "Anvil Ballista Dunestalker",
+      "uex": 31
+    },
+    {
+      "rsi": "Anvil Ballista Snowblind",
+      "uex": 32
+    },
+    {
+      "rsi": "Apollo Medivac",
+      "uex": 15
+    },
+    {
+      "rsi": "Apollo Triage",
+      "uex": 16
+    },
+    {
+      "rsi": "Ares Inferno",
+      "uex": 17
+    },
+    {
+      "rsi": "Ares Ion",
+      "uex": 18
+    },
+    {
+      "rsi": "Argo Mole Carbon Edition",
+      "uex": 123
+    },
+    {
+      "rsi": "Argo Mole Talus Edition",
+      "uex": 124
+    },
+    {
+      "rsi": "Arrastra",
+      "uex": 19
+    },
+    {
+      "rsi": "Arrow",
+      "uex": 20
+    },
+    {
+      "rsi": "Asgard",
+      "uex": 255
+    },
+    {
+      "rsi": "ATLS",
+      "uex": 233
+    },
+    {
+      "rsi": "ATLS GEO",
+      "uex": 252
+    },
+    {
+      "rsi": "ATLS IKTI Akuma",
+      "uex": null
+    },
+    {
+      "rsi": "Aurora Mk I CL",
+      "uex": 21
+    },
+    {
+      "rsi": "Aurora Mk I ES",
+      "uex": 22
+    },
+    {
+      "rsi": "Aurora Mk I LN",
+      "uex": 23
+    },
+    {
+      "rsi": "Aurora Mk I LX",
+      "uex": 24
+    },
+    {
+      "rsi": "Aurora Mk I MR",
+      "uex": 25
+    },
+    {
+      "rsi": "Aurora Mk I SE",
+      "uex": 279
+    },
+    {
+      "rsi": "Aurora Mk II",
+      "uex": 278
+    },
+    {
+      "rsi": "Avenger Stalker",
+      "uex": 26
+    },
+    {
+      "rsi": "Avenger Titan",
+      "uex": 27
+    },
+    {
+      "rsi": "Avenger Titan Renegade",
+      "uex": 28
+    },
+    {
+      "rsi": "Avenger Warlock",
+      "uex": 29
+    },
+    {
+      "rsi": "Ballista",
+      "uex": 32
+    },
+    {
+      "rsi": "Basher",
+      "uex": 289
+    },
+    {
+      "rsi": "Blade",
+      "uex": 33
+    },
+    {
+      "rsi": "Buccaneer",
+      "uex": 34
+    },
+    {
+      "rsi": "C1 Spirit",
+      "uex": 179
+    },
+    {
+      "rsi": "C2 Hercules",
+      "uex": 35
+    },
+    {
+      "rsi": "C8R Pisces",
+      "uex": 37
+    },
+    {
+      "rsi": "C8X Pisces Expedition",
+      "uex": 38
+    },
+    {
+      "rsi": "Carrack",
+      "uex": 39
+    },
+    {
+      "rsi": "Carrack Expedition",
+      "uex": 40
+    },
+    {
+      "rsi": "Carrack Expedition w/C8X",
+      "uex": 40
+    },
+    {
+      "rsi": "Carrack w/C8X",
+      "uex": 39
+    },
+    {
+      "rsi": "Caterpillar",
+      "uex": 41
+    },
+    {
+      "rsi": "Centurion",
+      "uex": null
+    },
+    {
+      "rsi": "Clipper",
+      "uex": 268
+    },
+    {
+      "rsi": "Constellation Mk IV Andromeda",
+      "uex": 45
+    },
+    {
+      "rsi": "Constellation Mk IV Aquila",
+      "uex": 46
+    },
+    {
+      "rsi": "Constellation Mk IV Phoenix",
+      "uex": 47
+    },
+    {
+      "rsi": "Constellation Mk IV Taurus",
+      "uex": 49
+    },
+    {
+      "rsi": "Constellation Mk V Centaurus",
+      "uex": 292
+    },
+    {
+      "rsi": "Corsair",
+      "uex": 50
+    },
+    {
+      "rsi": "Crucible",
+      "uex": 51
+    },
+    {
+      "rsi": "CSV-SM",
+      "uex": 240
+    },
+    {
+      "rsi": "Cutlass Black",
+      "uex": 52
+    },
+    {
+      "rsi": "Cutlass Blue",
+      "uex": 54
+    },
+    {
+      "rsi": "Cutlass Red",
+      "uex": 55
+    },
+    {
+      "rsi": "Cutlass Steel",
+      "uex": 56
+    },
+    {
+      "rsi": "Cutter",
+      "uex": 57
+    },
+    {
+      "rsi": "Cutter Rambler",
+      "uex": 59
+    },
+    {
+      "rsi": "Cutter Scout",
+      "uex": 58
+    },
+    {
+      "rsi": "Cyclone",
+      "uex": 60
+    },
+    {
+      "rsi": "Cyclone AA",
+      "uex": 61
+    },
+    {
+      "rsi": "Cyclone MT",
+      "uex": 62
+    },
+    {
+      "rsi": "Cyclone RC",
+      "uex": 63
+    },
+    {
+      "rsi": "Cyclone RN",
+      "uex": 64
+    },
+    {
+      "rsi": "Cyclone TR",
+      "uex": 65
+    },
+    {
+      "rsi": "Defender",
+      "uex": 66
+    },
+    {
+      "rsi": "Dragonfly Black",
+      "uex": 67
+    },
+    {
+      "rsi": "Dragonfly Yellowjacket",
+      "uex": 68
+    },
+    {
+      "rsi": "E1 Spirit",
+      "uex": 180
+    },
+    {
+      "rsi": "Eclipse",
+      "uex": 69
+    },
+    {
+      "rsi": "Endeavor",
+      "uex": 70
+    },
+    {
+      "rsi": "Expanse",
+      "uex": 71
+    },
+    {
+      "rsi": "F7C Hornet Mk I",
+      "uex": 224
+    },
+    {
+      "rsi": "F7C Hornet Mk II",
+      "uex": 73
+    },
+    {
+      "rsi": "F7C Hornet Wildfire Mk I",
+      "uex": 74
+    },
+    {
+      "rsi": "F7C-M Super Hornet Heartseeker Mk I",
+      "uex": 76
+    },
+    {
+      "rsi": "F7C-M Super Hornet Mk I",
+      "uex": 75
+    },
+    {
+      "rsi": "F7C-M Super Hornet Mk II",
+      "uex": 250
+    },
+    {
+      "rsi": "F7C-R Hornet Tracker Mk I",
+      "uex": 77
+    },
+    {
+      "rsi": "F7C-R Hornet Tracker Mk II",
+      "uex": 246
+    },
+    {
+      "rsi": "F7C-S Hornet Ghost Mk I",
+      "uex": 78
+    },
+    {
+      "rsi": "F7C-S Hornet Ghost Mk II",
+      "uex": 247
+    },
+    {
+      "rsi": "Fortune",
+      "uex": 234
+    },
+    {
+      "rsi": "Freelancer",
+      "uex": 80
+    },
+    {
+      "rsi": "Freelancer DUR",
+      "uex": 81
+    },
+    {
+      "rsi": "Freelancer MAX",
+      "uex": 82
+    },
+    {
+      "rsi": "Freelancer MIS",
+      "uex": 83
+    },
+    {
+      "rsi": "Fury",
+      "uex": 84
+    },
+    {
+      "rsi": "Fury LX",
+      "uex": 85
+    },
+    {
+      "rsi": "Fury MX",
+      "uex": 86
+    },
+    {
+      "rsi": "G12",
+      "uex": 87
+    },
+    {
+      "rsi": "G12a",
+      "uex": 88
+    },
+    {
+      "rsi": "G12r",
+      "uex": 89
+    },
+    {
+      "rsi": "Galaxy",
+      "uex": 90
+    },
+    {
+      "rsi": "Genesis",
+      "uex": 91
+    },
+    {
+      "rsi": "Gladiator",
+      "uex": 92
+    },
+    {
+      "rsi": "Gladius",
+      "uex": 93
+    },
+    {
+      "rsi": "Gladius Pirate Edition",
+      "uex": 94
+    },
+    {
+      "rsi": "Gladius Valiant",
+      "uex": 95
+    },
+    {
+      "rsi": "Glaive",
+      "uex": 96
+    },
+    {
+      "rsi": "Golem",
+      "uex": 251
+    },
+    {
+      "rsi": "Golem OX",
+      "uex": 269
+    },
+    {
+      "rsi": "Guardian",
+      "uex": 238
+    },
+    {
+      "rsi": "Guardian MX",
+      "uex": 257
+    },
+    {
+      "rsi": "Guardian QI",
+      "uex": 239
+    },
+    {
+      "rsi": "Hammerhead",
+      "uex": 97
+    },
+    {
+      "rsi": "Hawk",
+      "uex": 99
+    },
+    {
+      "rsi": "Herald",
+      "uex": 100
+    },
+    {
+      "rsi": "Hermes",
+      "uex": 275
+    },
+    {
+      "rsi": "HoverQuad",
+      "uex": 101
+    },
+    {
+      "rsi": "Hull A",
+      "uex": 102
+    },
+    {
+      "rsi": "Hull B",
+      "uex": 103
+    },
+    {
+      "rsi": "Hull C",
+      "uex": 104
+    },
+    {
+      "rsi": "Hull D",
+      "uex": 105
+    },
+    {
+      "rsi": "Hull E",
+      "uex": 106
+    },
+    {
+      "rsi": "Hurricane",
+      "uex": 107
+    },
+    {
+      "rsi": "Idris-P",
+      "uex": 109
+    },
+    {
+      "rsi": "Intrepid",
+      "uex": 236
+    },
+    {
+      "rsi": "Ironclad",
+      "uex": 230
+    },
+    {
+      "rsi": "Ironclad Assault",
+      "uex": 231
+    },
+    {
+      "rsi": "Khartu-al",
+      "uex": 111
+    },
+    {
+      "rsi": "L-21 Wolf",
+      "uex": 264
+    },
+    {
+      "rsi": "L-22 Alpha Wolf",
+      "uex": 267
+    },
+    {
+      "rsi": "Legionnaire",
+      "uex": 114
+    },
+    {
+      "rsi": "Liberator",
+      "uex": 115
+    },
+    {
+      "rsi": "Lynx",
+      "uex": 116
+    },
+    {
+      "rsi": "M2 Hercules",
+      "uex": 117
+    },
+    {
+      "rsi": "M50",
+      "uex": 118
+    },
+    {
+      "rsi": "M80",
+      "uex": 283
+    },
+    {
+      "rsi": "Mantis",
+      "uex": 119
+    },
+    {
+      "rsi": "Marauder",
+      "uex": null
+    },
+    {
+      "rsi": "MDC",
+      "uex": 270
+    },
+    {
+      "rsi": "Merchantman",
+      "uex": 120
+    },
+    {
+      "rsi": "Mercury",
+      "uex": 121
+    },
+    {
+      "rsi": "Meteor",
+      "uex": 263
+    },
+    {
+      "rsi": "MOLE",
+      "uex": 122
+    },
+    {
+      "rsi": "MOTH",
+      "uex": 276
+    },
+    {
+      "rsi": "MPUV Cargo",
+      "uex": 125
+    },
+    {
+      "rsi": "MPUV Personnel",
+      "uex": 126
+    },
+    {
+      "rsi": "MPUV Tractor",
+      "uex": 227
+    },
+    {
+      "rsi": "MTC",
+      "uex": 256
+    },
+    {
+      "rsi": "Mule",
+      "uex": 127
+    },
+    {
+      "rsi": "Mustang Alpha",
+      "uex": 128
+    },
+    {
+      "rsi": "Mustang Alpha Vindicator",
+      "uex": 129
+    },
+    {
+      "rsi": "Mustang Beta",
+      "uex": 130
+    },
+    {
+      "rsi": "Mustang Delta",
+      "uex": 131
+    },
+    {
+      "rsi": "Mustang Gamma",
+      "uex": 132
+    },
+    {
+      "rsi": "Nautilus",
+      "uex": 134
+    },
+    {
+      "rsi": "Nautilus Solstice Edition",
+      "uex": 135
+    },
+    {
+      "rsi": "Nomad",
+      "uex": 136
+    },
+    {
+      "rsi": "Nova",
+      "uex": 137
+    },
+    {
+      "rsi": "Nox",
+      "uex": 138
+    },
+    {
+      "rsi": "Nox Kue",
+      "uex": 139
+    },
+    {
+      "rsi": "Odyssey",
+      "uex": 140
+    },
+    {
+      "rsi": "Orion",
+      "uex": 141
+    },
+    {
+      "rsi": "P-52 Merlin",
+      "uex": 142
+    },
+    {
+      "rsi": "P-72 Archimedes",
+      "uex": 143
+    },
+    {
+      "rsi": "P-72 Archimedes Emerald",
+      "uex": 144
+    },
+    {
+      "rsi": "Paladin",
+      "uex": 249
+    },
+    {
+      "rsi": "Perseus",
+      "uex": 145
+    },
+    {
+      "rsi": "Pioneer",
+      "uex": 146
+    },
+    {
+      "rsi": "Pitbull",
+      "uex": 282
+    },
+    {
+      "rsi": "Polaris",
+      "uex": 147
+    },
+    {
+      "rsi": "Prospector",
+      "uex": 148
+    },
+    {
+      "rsi": "Prowler",
+      "uex": 149
+    },
+    {
+      "rsi": "Prowler Utility",
+      "uex": 262
+    },
+    {
+      "rsi": "Pulse",
+      "uex": 225
+    },
+    {
+      "rsi": "Pulse LX",
+      "uex": 226
+    },
+    {
+      "rsi": "RAFT",
+      "uex": 151
+    },
+    {
+      "rsi": "Railen",
+      "uex": 152
+    },
+    {
+      "rsi": "Ranger CV",
+      "uex": 153
+    },
+    {
+      "rsi": "Ranger RC",
+      "uex": 154
+    },
+    {
+      "rsi": "Ranger TR",
+      "uex": 155
+    },
+    {
+      "rsi": "Razor",
+      "uex": 156
+    },
+    {
+      "rsi": "Razor EX",
+      "uex": 157
+    },
+    {
+      "rsi": "Razor LX",
+      "uex": 158
+    },
+    {
+      "rsi": "Reclaimer",
+      "uex": 159
+    },
+    {
+      "rsi": "Redeemer",
+      "uex": 161
+    },
+    {
+      "rsi": "Reliant Kore",
+      "uex": 162
+    },
+    {
+      "rsi": "Reliant Mako",
+      "uex": 163
+    },
+    {
+      "rsi": "Reliant Sen",
+      "uex": 164
+    },
+    {
+      "rsi": "Reliant Tana",
+      "uex": 165
+    },
+    {
+      "rsi": "Retaliator",
+      "uex": 166
+    },
+    {
+      "rsi": "ROC",
+      "uex": 168
+    },
+    {
+      "rsi": "ROC-DS",
+      "uex": 169
+    },
+    {
+      "rsi": "S-65 Stingray",
+      "uex": 274
+    },
+    {
+      "rsi": "Sabre",
+      "uex": 170
+    },
+    {
+      "rsi": "Sabre Comet",
+      "uex": 171
+    },
+    {
+      "rsi": "Sabre Firebird",
+      "uex": 228
+    },
+    {
+      "rsi": "Sabre Peregrine",
+      "uex": 232
+    },
+    {
+      "rsi": "Sabre Raven EX",
+      "uex": 172
+    },
+    {
+      "rsi": "Salvation",
+      "uex": 271
+    },
+    {
+      "rsi": "San'tok.yāi",
+      "uex": 173
+    },
+    {
+      "rsi": "Scorpius",
+      "uex": 174
+    },
+    {
+      "rsi": "Scorpius Antares",
+      "uex": 175
+    },
+    {
+      "rsi": "Shiv",
+      "uex": 266
+    },
+    {
+      "rsi": "Skylark",
+      "uex": null
+    },
+    {
+      "rsi": "Spartan",
+      "uex": null
+    },
+    {
+      "rsi": "SRV",
+      "uex": 181
+    },
+    {
+      "rsi": "Starfarer",
+      "uex": 182
+    },
+    {
+      "rsi": "Starfarer Gemini",
+      "uex": 183
+    },
+    {
+      "rsi": "Starlancer MAX",
+      "uex": 242
+    },
+    {
+      "rsi": "Starlancer TAC",
+      "uex": 241
+    },
+    {
+      "rsi": "Starlite",
+      "uex": 284
+    },
+    {
+      "rsi": "Stinger",
+      "uex": 265
+    },
+    {
+      "rsi": "Storm",
+      "uex": 184
+    },
+    {
+      "rsi": "Storm AA",
+      "uex": 186
+    },
+    {
+      "rsi": "STV",
+      "uex": 187
+    },
+    {
+      "rsi": "Syulen",
+      "uex": 188
+    },
+    {
+      "rsi": "Talon",
+      "uex": 189
+    },
+    {
+      "rsi": "Talon Shrike",
+      "uex": 190
+    },
+    {
+      "rsi": "Terrapin",
+      "uex": 191
+    },
+    {
+      "rsi": "Terrapin Medic",
+      "uex": 248
+    },
+    {
+      "rsi": "Tiburon",
+      "uex": 285
+    },
+    {
+      "rsi": "Tyilui",
+      "uex": 287
+    },
+    {
+      "rsi": "Ursa",
+      "uex": 192
+    },
+    {
+      "rsi": "Ursa Fortuna",
+      "uex": 193
+    },
+    {
+      "rsi": "Ursa Medivac",
+      "uex": 229
+    },
+    {
+      "rsi": "UTV",
+      "uex": 280
+    },
+    {
+      "rsi": "Valkyrie",
+      "uex": 194
+    },
+    {
+      "rsi": "Valkyrie Liberator Edition",
+      "uex": 195
+    },
+    {
+      "rsi": "Vanguard Harbinger",
+      "uex": 196
+    },
+    {
+      "rsi": "Vanguard Hoplite",
+      "uex": 197
+    },
+    {
+      "rsi": "Vanguard Sentinel",
+      "uex": 198
+    },
+    {
+      "rsi": "Vanguard Warden",
+      "uex": 199
+    },
+    {
+      "rsi": "Vulcan",
+      "uex": 200
+    },
+    {
+      "rsi": "Vulture",
+      "uex": 201
+    },
+    {
+      "rsi": "X1",
+      "uex": 202
+    },
+    {
+      "rsi": "X1 Force",
+      "uex": 203
+    },
+    {
+      "rsi": "X1 Velocity",
+      "uex": 204
+    },
+    {
+      "rsi": "Zeus Mk II CL",
+      "uex": 207
+    },
+    {
+      "rsi": "Zeus Mk II ES",
+      "uex": 205
+    },
+    {
+      "rsi": "Zeus Mk II MR",
+      "uex": 206
+    },
+    {
+      "rsi": null,
+      "uex": 72,
+      "usd": 125
+    },
+    {
+      "rsi": null,
+      "uex": 176,
+      "usd": 300
+    },
+    {
+      "rsi": null,
+      "uex": 108,
+      "usd": 1000
+    },
+    {
+      "rsi": null,
+      "uex": 133,
+      "usd": 55
+    },
+    {
+      "rsi": null,
+      "uex": 110,
+      "usd": 3000
+    },
+    {
+      "rsi": null,
+      "uex": 172,
+      "usd": 200
+    },
+    {
+      "rsi": null,
+      "uex": 112,
+      "usd": 1650
+    },
+    {
+      "rsi": null,
+      "uex": 113,
+      "usd": 2000
+    },
+    {
+      "rsi": null,
+      "uex": 36,
+      "usd": 45
+    },
+    {
+      "rsi": null,
+      "uex": 150,
+      "usd": 15
+    },
+    {
+      "rsi": null,
+      "uex": 79,
+      "usd": 300
+    },
+    {
+      "rsi": null,
+      "uex": 286,
+      "usd": 5900
+    }
+  ]
+}

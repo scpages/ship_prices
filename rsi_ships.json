@@ -1,0 +1,1217 @@
+[
+  {
+    "name": "100i",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 50
+  },
+  {
+    "name": "125a",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 60
+  },
+  {
+    "name": "135c",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 65
+  },
+  {
+    "name": "300i",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 60
+  },
+  {
+    "name": "315p",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 65
+  },
+  {
+    "name": "325a",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 70
+  },
+  {
+    "name": "350r",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 125
+  },
+  {
+    "name": "400i",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 250
+  },
+  {
+    "name": "600i Explorer",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 475
+  },
+  {
+    "name": "600i Touring",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 435
+  },
+  {
+    "name": "85X",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 50
+  },
+  {
+    "name": "890 Jump",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 950
+  },
+  {
+    "name": "A1 Spirit",
+    "manufacturer": "Crusader Industries",
+    "usd": 200
+  },
+  {
+    "name": "A2 Hercules",
+    "manufacturer": "Crusader Industries",
+    "usd": 750
+  },
+  {
+    "name": "Anvil Ballista Dunestalker",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 140
+  },
+  {
+    "name": "Anvil Ballista Snowblind",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 140
+  },
+  {
+    "name": "Apollo Medivac",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 290
+  },
+  {
+    "name": "Apollo Triage",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 260
+  },
+  {
+    "name": "Ares Inferno",
+    "manufacturer": "Crusader Industries",
+    "usd": 250
+  },
+  {
+    "name": "Ares Ion",
+    "manufacturer": "Crusader Industries",
+    "usd": 250
+  },
+  {
+    "name": "Argo Mole Carbon Edition",
+    "manufacturer": "Argo Astronautics",
+    "usd": 315
+  },
+  {
+    "name": "Argo Mole Talus Edition",
+    "manufacturer": "Argo Astronautics",
+    "usd": 315
+  },
+  {
+    "name": "Arrastra",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 575
+  },
+  {
+    "name": "Arrow",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 75
+  },
+  {
+    "name": "Asgard",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 350
+  },
+  {
+    "name": "ATLS",
+    "manufacturer": "Argo Astronautics",
+    "usd": 40
+  },
+  {
+    "name": "ATLS GEO",
+    "manufacturer": "Argo Astronautics",
+    "usd": 45
+  },
+  {
+    "name": "ATLS IKTI Akuma",
+    "manufacturer": "Argo Astronautics",
+    "usd": 50
+  },
+  {
+    "name": "Aurora Mk I CL",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 45
+  },
+  {
+    "name": "Aurora Mk I ES",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 20
+  },
+  {
+    "name": "Aurora Mk I LN",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 40
+  },
+  {
+    "name": "Aurora Mk I LX",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 35
+  },
+  {
+    "name": "Aurora Mk I MR",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 30
+  },
+  {
+    "name": "Aurora Mk I SE",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 60
+  },
+  {
+    "name": "Aurora Mk II",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 45
+  },
+  {
+    "name": "Avenger Stalker",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 60
+  },
+  {
+    "name": "Avenger Titan",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 60
+  },
+  {
+    "name": "Avenger Titan Renegade",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 75
+  },
+  {
+    "name": "Avenger Warlock",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 85
+  },
+  {
+    "name": "Ballista",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 140
+  },
+  {
+    "name": "Basher",
+    "manufacturer": "Grey's Market",
+    "usd": 110
+  },
+  {
+    "name": "Blade",
+    "manufacturer": "Esperia",
+    "usd": 275
+  },
+  {
+    "name": "Buccaneer",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 110
+  },
+  {
+    "name": "C1 Spirit",
+    "manufacturer": "Crusader Industries",
+    "usd": 125
+  },
+  {
+    "name": "C2 Hercules",
+    "manufacturer": "Crusader Industries",
+    "usd": 400
+  },
+  {
+    "name": "C8R Pisces",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 65
+  },
+  {
+    "name": "C8X Pisces Expedition",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 45
+  },
+  {
+    "name": "Carrack",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 600
+  },
+  {
+    "name": "Carrack Expedition",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 625
+  },
+  {
+    "name": "Carrack Expedition w/C8X",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 645
+  },
+  {
+    "name": "Carrack w/C8X",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 620
+  },
+  {
+    "name": "Caterpillar",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 330
+  },
+  {
+    "name": "Centurion",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 110
+  },
+  {
+    "name": "Clipper",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 150
+  },
+  {
+    "name": "Constellation Mk IV Andromeda",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 240
+  },
+  {
+    "name": "Constellation Mk IV Aquila",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 315
+  },
+  {
+    "name": "Constellation Mk IV Phoenix",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 350
+  },
+  {
+    "name": "Constellation Mk IV Taurus",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 200
+  },
+  {
+    "name": "Constellation Mk V Centaurus",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 300
+  },
+  {
+    "name": "Corsair",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 250
+  },
+  {
+    "name": "Crucible",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 350
+  },
+  {
+    "name": "CSV-SM",
+    "manufacturer": "Argo Astronautics",
+    "usd": 45
+  },
+  {
+    "name": "Cutlass Black",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 110
+  },
+  {
+    "name": "Cutlass Blue",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 175
+  },
+  {
+    "name": "Cutlass Red",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 135
+  },
+  {
+    "name": "Cutlass Steel",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 235
+  },
+  {
+    "name": "Cutter",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 45
+  },
+  {
+    "name": "Cutter Rambler",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 50
+  },
+  {
+    "name": "Cutter Scout",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 50
+  },
+  {
+    "name": "Cyclone",
+    "manufacturer": "Tumbril",
+    "usd": 55
+  },
+  {
+    "name": "Cyclone AA",
+    "manufacturer": "Tumbril",
+    "usd": 80
+  },
+  {
+    "name": "Cyclone MT",
+    "manufacturer": "Tumbril",
+    "usd": 75
+  },
+  {
+    "name": "Cyclone RC",
+    "manufacturer": "Tumbril",
+    "usd": 65
+  },
+  {
+    "name": "Cyclone RN",
+    "manufacturer": "Tumbril",
+    "usd": 65
+  },
+  {
+    "name": "Cyclone TR",
+    "manufacturer": "Tumbril",
+    "usd": 65
+  },
+  {
+    "name": "Defender",
+    "manufacturer": "Banu",
+    "usd": 220
+  },
+  {
+    "name": "Dragonfly Black",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 40
+  },
+  {
+    "name": "Dragonfly Yellowjacket",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 40
+  },
+  {
+    "name": "E1 Spirit",
+    "manufacturer": "Crusader Industries",
+    "usd": 150
+  },
+  {
+    "name": "Eclipse",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 300
+  },
+  {
+    "name": "Endeavor",
+    "manufacturer": "MISC",
+    "usd": 350
+  },
+  {
+    "name": "Expanse",
+    "manufacturer": "MISC",
+    "usd": 150
+  },
+  {
+    "name": "F7C Hornet Mk I",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 125
+  },
+  {
+    "name": "F7C Hornet Mk II",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 175
+  },
+  {
+    "name": "F7C Hornet Wildfire Mk I",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 175
+  },
+  {
+    "name": "F7C-M Super Hornet Heartseeker Mk I",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 200
+  },
+  {
+    "name": "F7C-M Super Hornet Mk I",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 180
+  },
+  {
+    "name": "F7C-M Super Hornet Mk II",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 240
+  },
+  {
+    "name": "F7C-R Hornet Tracker Mk I",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 150
+  },
+  {
+    "name": "F7C-R Hornet Tracker Mk II",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 185
+  },
+  {
+    "name": "F7C-S Hornet Ghost Mk I",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 140
+  },
+  {
+    "name": "F7C-S Hornet Ghost Mk II",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 185
+  },
+  {
+    "name": "Fortune",
+    "manufacturer": "MISC",
+    "usd": 175
+  },
+  {
+    "name": "Freelancer",
+    "manufacturer": "MISC",
+    "usd": 110
+  },
+  {
+    "name": "Freelancer DUR",
+    "manufacturer": "MISC",
+    "usd": 135
+  },
+  {
+    "name": "Freelancer MAX",
+    "manufacturer": "MISC",
+    "usd": 150
+  },
+  {
+    "name": "Freelancer MIS",
+    "manufacturer": "MISC",
+    "usd": 175
+  },
+  {
+    "name": "Fury",
+    "manufacturer": "Mirai",
+    "usd": 55
+  },
+  {
+    "name": "Fury LX",
+    "manufacturer": "Mirai",
+    "usd": 55
+  },
+  {
+    "name": "Fury MX",
+    "manufacturer": "Mirai",
+    "usd": 55
+  },
+  {
+    "name": "G12",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 60
+  },
+  {
+    "name": "G12a",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 65
+  },
+  {
+    "name": "G12r",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 60
+  },
+  {
+    "name": "Galaxy",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 400
+  },
+  {
+    "name": "Genesis",
+    "manufacturer": "Crusader Industries",
+    "usd": 400
+  },
+  {
+    "name": "Gladiator",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 165
+  },
+  {
+    "name": "Gladius",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 90
+  },
+  {
+    "name": "Gladius Pirate Edition",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 110
+  },
+  {
+    "name": "Gladius Valiant",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 110
+  },
+  {
+    "name": "Glaive",
+    "manufacturer": "Esperia",
+    "usd": 350
+  },
+  {
+    "name": "Golem",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 60
+  },
+  {
+    "name": "Golem OX",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 90
+  },
+  {
+    "name": "Guardian",
+    "manufacturer": "Mirai",
+    "usd": 250
+  },
+  {
+    "name": "Guardian MX",
+    "manufacturer": "Mirai",
+    "usd": 290
+  },
+  {
+    "name": "Guardian QI",
+    "manufacturer": "Mirai",
+    "usd": 260
+  },
+  {
+    "name": "Hammerhead",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 725
+  },
+  {
+    "name": "Hawk",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 100
+  },
+  {
+    "name": "Herald",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 85
+  },
+  {
+    "name": "Hermes",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 220
+  },
+  {
+    "name": "HoverQuad",
+    "manufacturer": "Consolidated Outland",
+    "usd": 30
+  },
+  {
+    "name": "Hull A",
+    "manufacturer": "MISC",
+    "usd": 100
+  },
+  {
+    "name": "Hull B",
+    "manufacturer": "MISC",
+    "usd": 280
+  },
+  {
+    "name": "Hull C",
+    "manufacturer": "MISC",
+    "usd": 500
+  },
+  {
+    "name": "Hull D",
+    "manufacturer": "MISC",
+    "usd": 550
+  },
+  {
+    "name": "Hull E",
+    "manufacturer": "MISC",
+    "usd": 750
+  },
+  {
+    "name": "Hurricane",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 210
+  },
+  {
+    "name": "Idris-P",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 1900
+  },
+  {
+    "name": "Intrepid",
+    "manufacturer": "Crusader Industries",
+    "usd": 65
+  },
+  {
+    "name": "Ironclad",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 600
+  },
+  {
+    "name": "Ironclad Assault",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 650
+  },
+  {
+    "name": "Khartu-al",
+    "manufacturer": "Aopoa",
+    "usd": 175
+  },
+  {
+    "name": "L-21 Wolf",
+    "manufacturer": "Kruger Intergalactic",
+    "usd": 100
+  },
+  {
+    "name": "L-22 Alpha Wolf",
+    "manufacturer": "Kruger Intergalactic",
+    "usd": 120
+  },
+  {
+    "name": "Legionnaire",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 120
+  },
+  {
+    "name": "Liberator",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 600
+  },
+  {
+    "name": "Lynx",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 60
+  },
+  {
+    "name": "M2 Hercules",
+    "manufacturer": "Crusader Industries",
+    "usd": 520
+  },
+  {
+    "name": "M50",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 100
+  },
+  {
+    "name": "M80",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 300
+  },
+  {
+    "name": "Mantis",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 150
+  },
+  {
+    "name": "Marauder",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 150
+  },
+  {
+    "name": "MDC",
+    "manufacturer": "Greycat Industrial",
+    "usd": 50
+  },
+  {
+    "name": "Merchantman",
+    "manufacturer": "Banu",
+    "usd": 650
+  },
+  {
+    "name": "Mercury",
+    "manufacturer": "Crusader Industries",
+    "usd": 260
+  },
+  {
+    "name": "Meteor",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 260
+  },
+  {
+    "name": "MOLE",
+    "manufacturer": "Argo Astronautics",
+    "usd": 315
+  },
+  {
+    "name": "MOTH",
+    "manufacturer": "Argo Astronautics",
+    "usd": 315
+  },
+  {
+    "name": "MPUV Cargo",
+    "manufacturer": "Argo Astronautics",
+    "usd": 35
+  },
+  {
+    "name": "MPUV Personnel",
+    "manufacturer": "Argo Astronautics",
+    "usd": 40
+  },
+  {
+    "name": "MPUV Tractor",
+    "manufacturer": "Argo Astronautics",
+    "usd": 40
+  },
+  {
+    "name": "MTC",
+    "manufacturer": "Greycat Industrial",
+    "usd": 50
+  },
+  {
+    "name": "Mule",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 45
+  },
+  {
+    "name": "Mustang Alpha",
+    "manufacturer": "Consolidated Outland",
+    "usd": 30
+  },
+  {
+    "name": "Mustang Alpha Vindicator",
+    "manufacturer": "Consolidated Outland",
+    "usd": 30
+  },
+  {
+    "name": "Mustang Beta",
+    "manufacturer": "Consolidated Outland",
+    "usd": 40
+  },
+  {
+    "name": "Mustang Delta",
+    "manufacturer": "Consolidated Outland",
+    "usd": 65
+  },
+  {
+    "name": "Mustang Gamma",
+    "manufacturer": "Consolidated Outland",
+    "usd": 55
+  },
+  {
+    "name": "Nautilus",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 725
+  },
+  {
+    "name": "Nautilus Solstice Edition",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 725
+  },
+  {
+    "name": "Nomad",
+    "manufacturer": "Consolidated Outland",
+    "usd": 80
+  },
+  {
+    "name": "Nova",
+    "manufacturer": "Tumbril",
+    "usd": 120
+  },
+  {
+    "name": "Nox",
+    "manufacturer": "Aopoa",
+    "usd": 45
+  },
+  {
+    "name": "Nox Kue",
+    "manufacturer": "Aopoa",
+    "usd": 45
+  },
+  {
+    "name": "Odyssey",
+    "manufacturer": "MISC",
+    "usd": 700
+  },
+  {
+    "name": "Orion",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 650
+  },
+  {
+    "name": "P-52 Merlin",
+    "manufacturer": "Kruger Intergalactic",
+    "usd": 25
+  },
+  {
+    "name": "P-72 Archimedes",
+    "manufacturer": "Kruger Intergalactic",
+    "usd": 35
+  },
+  {
+    "name": "P-72 Archimedes Emerald",
+    "manufacturer": "Kruger Intergalactic",
+    "usd": 40
+  },
+  {
+    "name": "Paladin",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 350
+  },
+  {
+    "name": "Perseus",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 800
+  },
+  {
+    "name": "Pioneer",
+    "manufacturer": "Consolidated Outland",
+    "usd": 925
+  },
+  {
+    "name": "Pitbull",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 55
+  },
+  {
+    "name": "Polaris",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 975
+  },
+  {
+    "name": "Prospector",
+    "manufacturer": "MISC",
+    "usd": 155
+  },
+  {
+    "name": "Prowler",
+    "manufacturer": "Esperia",
+    "usd": 440
+  },
+  {
+    "name": "Prowler Utility",
+    "manufacturer": "Esperia",
+    "usd": 300
+  },
+  {
+    "name": "Pulse",
+    "manufacturer": "Mirai",
+    "usd": 30
+  },
+  {
+    "name": "Pulse LX",
+    "manufacturer": "Mirai",
+    "usd": 30
+  },
+  {
+    "name": "RAFT",
+    "manufacturer": "Argo Astronautics",
+    "usd": 190
+  },
+  {
+    "name": "Railen",
+    "manufacturer": "Gatac Manufacture",
+    "usd": 400
+  },
+  {
+    "name": "Ranger CV",
+    "manufacturer": "Tumbril",
+    "usd": 35
+  },
+  {
+    "name": "Ranger RC",
+    "manufacturer": "Tumbril",
+    "usd": 35
+  },
+  {
+    "name": "Ranger TR",
+    "manufacturer": "Tumbril",
+    "usd": 40
+  },
+  {
+    "name": "Razor",
+    "manufacturer": "Mirai",
+    "usd": 145
+  },
+  {
+    "name": "Razor EX",
+    "manufacturer": "Mirai",
+    "usd": 155
+  },
+  {
+    "name": "Razor LX",
+    "manufacturer": "Mirai",
+    "usd": 150
+  },
+  {
+    "name": "Reclaimer",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 400
+  },
+  {
+    "name": "Redeemer",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 330
+  },
+  {
+    "name": "Reliant Kore",
+    "manufacturer": "MISC",
+    "usd": 65
+  },
+  {
+    "name": "Reliant Mako",
+    "manufacturer": "MISC",
+    "usd": 95
+  },
+  {
+    "name": "Reliant Sen",
+    "manufacturer": "MISC",
+    "usd": 85
+  },
+  {
+    "name": "Reliant Tana",
+    "manufacturer": "MISC",
+    "usd": 75
+  },
+  {
+    "name": "Retaliator",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 175
+  },
+  {
+    "name": "ROC",
+    "manufacturer": "Greycat Industrial",
+    "usd": 55
+  },
+  {
+    "name": "ROC-DS",
+    "manufacturer": "Greycat Industrial",
+    "usd": 75
+  },
+  {
+    "name": "S-65 Stingray",
+    "manufacturer": "Kruger Intergalactic",
+    "usd": 175
+  },
+  {
+    "name": "Sabre",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 175
+  },
+  {
+    "name": "Sabre Comet",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 185
+  },
+  {
+    "name": "Sabre Firebird",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 185
+  },
+  {
+    "name": "Sabre Peregrine",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 185
+  },
+  {
+    "name": "Sabre Raven EX",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 185
+  },
+  {
+    "name": "Salvation",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 60
+  },
+  {
+    "name": "San'tok.yāi",
+    "manufacturer": "Aopoa",
+    "usd": 240
+  },
+  {
+    "name": "Scorpius",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 240
+  },
+  {
+    "name": "Scorpius Antares",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 230
+  },
+  {
+    "name": "Shiv",
+    "manufacturer": "Grey's Market",
+    "usd": 150
+  },
+  {
+    "name": "Skylark",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 45
+  },
+  {
+    "name": "Spartan",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 80
+  },
+  {
+    "name": "SRV",
+    "manufacturer": "Argo Astronautics",
+    "usd": 165
+  },
+  {
+    "name": "Starfarer",
+    "manufacturer": "MISC",
+    "usd": 300
+  },
+  {
+    "name": "Starfarer Gemini",
+    "manufacturer": "MISC",
+    "usd": 340
+  },
+  {
+    "name": "Starlancer MAX",
+    "manufacturer": "MISC",
+    "usd": 250
+  },
+  {
+    "name": "Starlancer TAC",
+    "manufacturer": "MISC",
+    "usd": 375
+  },
+  {
+    "name": "Starlite",
+    "manufacturer": "MISC",
+    "usd": 60
+  },
+  {
+    "name": "Stinger",
+    "manufacturer": "Esperia",
+    "usd": 315
+  },
+  {
+    "name": "Storm",
+    "manufacturer": "Tumbril",
+    "usd": 90
+  },
+  {
+    "name": "Storm AA",
+    "manufacturer": "Tumbril",
+    "usd": 100
+  },
+  {
+    "name": "STV",
+    "manufacturer": "Greycat Industrial",
+    "usd": 40
+  },
+  {
+    "name": "Syulen",
+    "manufacturer": "Gatac Manufacture",
+    "usd": 70
+  },
+  {
+    "name": "Talon",
+    "manufacturer": "Esperia",
+    "usd": 115
+  },
+  {
+    "name": "Talon Shrike",
+    "manufacturer": "Esperia",
+    "usd": 115
+  },
+  {
+    "name": "Terrapin",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 220
+  },
+  {
+    "name": "Terrapin Medic",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 220
+  },
+  {
+    "name": "Tiburon",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 775
+  },
+  {
+    "name": "Tyilui",
+    "manufacturer": "Gatac Manufacture",
+    "usd": 425
+  },
+  {
+    "name": "Ursa",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 50
+  },
+  {
+    "name": "Ursa Fortuna",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 55
+  },
+  {
+    "name": "Ursa Medivac",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 60
+  },
+  {
+    "name": "UTV",
+    "manufacturer": "Greycat Industrial",
+    "usd": 40
+  },
+  {
+    "name": "Valkyrie",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 375
+  },
+  {
+    "name": "Valkyrie Liberator Edition",
+    "manufacturer": "Anvil Aerospace",
+    "usd": 375
+  },
+  {
+    "name": "Vanguard Harbinger",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 290
+  },
+  {
+    "name": "Vanguard Hoplite",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 240
+  },
+  {
+    "name": "Vanguard Sentinel",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 275
+  },
+  {
+    "name": "Vanguard Warden",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 260
+  },
+  {
+    "name": "Vulcan",
+    "manufacturer": "Aegis Dynamics",
+    "usd": 200
+  },
+  {
+    "name": "Vulture",
+    "manufacturer": "Drake Interplanetary",
+    "usd": 175
+  },
+  {
+    "name": "X1",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 45
+  },
+  {
+    "name": "X1 Force",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 55
+  },
+  {
+    "name": "X1 Velocity",
+    "manufacturer": "Origin Jumpworks",
+    "usd": 50
+  },
+  {
+    "name": "Zeus Mk II CL",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 175
+  },
+  {
+    "name": "Zeus Mk II ES",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 175
+  },
+  {
+    "name": "Zeus Mk II MR",
+    "manufacturer": "Roberts Space Industries",
+    "usd": 190
+  }
+]
