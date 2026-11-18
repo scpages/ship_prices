@@ -9,6 +9,23 @@ const rsiShips = load("rsi_prices.json");
 const vehicles = load("vehicles.json");
 const buyRaw   = load("buy_prices.json");
 const rentRaw  = load("rent_prices.json");
+const shipMatrix = load("ship_matrix.json");
+
+// Catalogue ships RSI's pledge/CCU feed omits (capital ships, variants, NPC &
+// concept ships). Union them in so the list is complete; they have no pledge
+// price and show aUEC only where UEX has data. Exclude entries we don't want.
+const CATALOGUE_EXCLUDE = new Set([
+  "f8c lightning executive edition",
+]);
+const rsiNameSet = new Set(rsiShips.map(s => (s.name || "").trim().toLowerCase()));
+const extraShips = shipMatrix
+  .filter(s => {
+    const n = (s.name || "").trim().toLowerCase();
+    return n && !rsiNameSet.has(n) && !CATALOGUE_EXCLUDE.has(n);
+  })
+  .map(s => ({ name: s.name, manufacturer: { name: s.manufacturer }, msrp: null, flyableStatus: s.production_status }));
+
+const allShips = [...rsiShips, ...extraShips];
 
 const RSI_MFR_SHORT = {
   "Aegis Dynamics":          "Aegis",
@@ -119,7 +136,7 @@ function priceCell(entries, priceKey) {
 }
 
 // Enrich RSI ships with UEX aUEC data
-const enriched = rsiShips.map(ship => {
+const enriched = allShips.map(ship => {
   const uex  = matchUEX(ship);
   const mfr  = RSI_MFR_SHORT[ship.manufacturer?.name] || ship.manufacturer?.name || "";
   return { ...ship, uex, mfr, buys: uex ? buyMap[uex.id] : null, rents: uex ? rentMap[uex.id] : null };

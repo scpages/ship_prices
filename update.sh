@@ -6,7 +6,7 @@ echo "Fetching ship price data from api.uexcorp.space..."
 node fetch.js
 
 echo ""
-git add vehicles.json pledge_prices.json buy_prices.json rent_prices.json rsi_prices.json
+git add vehicles.json pledge_prices.json buy_prices.json rent_prices.json rsi_prices.json ship_matrix.json
 
 if git diff --staged --quiet; then
   echo "No changes in price data."

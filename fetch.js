@@ -52,6 +52,23 @@ async function main() {
   const rsiShips = rsiJson[0].data.ships;
   console.log(`  ${rsiShips.length} RSI ships`);
   fs.writeFileSync("rsi_prices.json", JSON.stringify(rsiShips, null, 2));
+
+  console.log("Fetching RSI ship matrix...");
+  const smResp = await fetch("https://robertsspaceindustries.com/ship-matrix/index", {
+    headers: { "Accept": "application/json", "User-Agent": "Mozilla/5.0" },
+  });
+  if (!smResp.ok) throw new Error(`Ship matrix HTTP ${smResp.status}`);
+  const smJson = await smResp.json();
+  // Keep only the fields we need — the full matrix is ~5 MB of specs we don't use.
+  const matrix = (smJson.data || []).map(s => ({
+    name: s.name,
+    manufacturer: s.manufacturer?.name || null,
+    focus: s.focus || null,
+    production_status: s.production_status || null,
+  }));
+  console.log(`  ${matrix.length} ship-matrix entries`);
+  fs.writeFileSync("ship_matrix.json", JSON.stringify(matrix, null, 2));
+
   console.log("Saved all data files.");
 }
 
